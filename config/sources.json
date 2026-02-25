@@ -472,6 +472,2238 @@
         "global",
         "smallbiz"
       ]
+    },
+    {
+      "id": "clien-jirum",
+      "name": "Clien 알뜰구매",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/jirum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/jirum\\/\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.72
+    },
+    {
+      "id": "clien-sold",
+      "name": "Clien 회원중고장터",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/sold",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/sold\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_linux",
+      "name": "Clien Linux당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_linux",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_linux\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.86
+    },
+    {
+      "id": "clien-cm_mac",
+      "name": "Clien MaClien",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_mac",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_mac\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.86
+    },
+    {
+      "id": "clien-cm_nas",
+      "name": "Clien NAS당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_nas",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_nas\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "clien-cm_stock",
+      "name": "Clien 주식한당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_stock",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_stock\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "clien-cm_running",
+      "name": "Clien 러닝한당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_running",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_running\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.72
+    },
+    {
+      "id": "clien-cm_tour",
+      "name": "Clien 여행당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_tour",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_tour\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.68
+    },
+    {
+      "id": "clien-cm_movie",
+      "name": "Clien 영화본당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_movie",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_movie\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.64
+    },
+    {
+      "id": "clien-cm_music",
+      "name": "Clien 음향당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_music",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_music\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.64
+    },
+    {
+      "id": "clien-cm_food",
+      "name": "Clien 소시당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_food",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_food\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "clien-cm_photo",
+      "name": "Clien 사진찍당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_photo",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_photo\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.66
+    },
+    {
+      "id": "clien-cm_watch",
+      "name": "Clien 시계찬당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_watch",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_watch\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.64
+    },
+    {
+      "id": "clien-cm_car",
+      "name": "Clien 굴러간당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_car",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_car\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.72
+    },
+    {
+      "id": "clien-cm_bike",
+      "name": "Clien 자전거당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_bike",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_bike\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.72
+    },
+    {
+      "id": "clien-cm_coffee",
+      "name": "Clien 커피한잔",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_coffee",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_coffee\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "clien-cm_cook",
+      "name": "Clien 요리한당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_cook",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_cook\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "clien-cm_plant",
+      "name": "Clien 식물당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_plant",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_plant\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.66
+    },
+    {
+      "id": "clien-cm_oversea",
+      "name": "Clien 나혼자산당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_oversea",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_oversea\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_venture",
+      "name": "Clien 창업한당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_venture",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_venture\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.74
+    },
+    {
+      "id": "clien-cm_book",
+      "name": "Clien 활자중독당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_book",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_book\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.68
+    },
+    {
+      "id": "clien-cm_console",
+      "name": "Clien 콘솔한당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_console",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_console\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_keyboard",
+      "name": "Clien 키보드당",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_keyboard",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_keyboard\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.64
+    },
+    {
+      "id": "pann-c20001",
+      "name": "Nate Pann c20001",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20001",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20002",
+      "name": "Nate Pann c20002",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20002",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20003",
+      "name": "Nate Pann c20003",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20003",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20004",
+      "name": "Nate Pann c20004",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20004",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20005",
+      "name": "Nate Pann c20005",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20005",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20006",
+      "name": "Nate Pann c20006",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20006",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20007",
+      "name": "Nate Pann c20007",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20007",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20009",
+      "name": "Nate Pann c20009",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20009",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20010",
+      "name": "Nate Pann c20010",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20010",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20011",
+      "name": "Nate Pann c20011",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20011",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20012",
+      "name": "Nate Pann c20012",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20012",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20013",
+      "name": "Nate Pann c20013",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20013",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20015",
+      "name": "Nate Pann c20015",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20015",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20016",
+      "name": "Nate Pann c20016",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20016",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20017",
+      "name": "Nate Pann c20017",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20017",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20018",
+      "name": "Nate Pann c20018",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20018",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20019",
+      "name": "Nate Pann c20019",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20019",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20021",
+      "name": "Nate Pann c20021",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20021",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20023",
+      "name": "Nate Pann c20023",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20023",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20024",
+      "name": "Nate Pann c20024",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20024",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20025",
+      "name": "Nate Pann c20025",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20025",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20026",
+      "name": "Nate Pann c20026",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20026",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20027",
+      "name": "Nate Pann c20027",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20027",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20028",
+      "name": "Nate Pann c20028",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20028",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20029",
+      "name": "Nate Pann c20029",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20029",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20030",
+      "name": "Nate Pann c20030",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20030",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20031",
+      "name": "Nate Pann c20031",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20031",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20032",
+      "name": "Nate Pann c20032",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20032",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20033",
+      "name": "Nate Pann c20033",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20033",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20034",
+      "name": "Nate Pann c20034",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20034",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20035",
+      "name": "Nate Pann c20035",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20035",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20040",
+      "name": "Nate Pann c20040",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20040",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20041",
+      "name": "Nate Pann c20041",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20041",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20042",
+      "name": "Nate Pann c20042",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20042",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20043",
+      "name": "Nate Pann c20043",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20043",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20047",
+      "name": "Nate Pann c20047",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20047",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20048",
+      "name": "Nate Pann c20048",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20048",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20049",
+      "name": "Nate Pann c20049",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20049",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20050",
+      "name": "Nate Pann c20050",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20050",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20051",
+      "name": "Nate Pann c20051",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20051",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20052",
+      "name": "Nate Pann c20052",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20052",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20053",
+      "name": "Nate Pann c20053",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20053",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20054",
+      "name": "Nate Pann c20054",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20054",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20055",
+      "name": "Nate Pann c20055",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20055",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20064",
+      "name": "Nate Pann c20064",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20064",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20068",
+      "name": "Nate Pann c20068",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20068",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "pann-c20069",
+      "name": "Nate Pann c20069",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20069",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "ppomppu-aircon_consult",
+      "name": "Ppomppu 에어컨상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=aircon_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=aircon_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 1.02
+    },
+    {
+      "id": "ppomppu-car_service",
+      "name": "Ppomppu 자동차서비스",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=car_service",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=car_service[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.95
+    },
+    {
+      "id": "ppomppu-card_consult",
+      "name": "Ppomppu 카드상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=card_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=card_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "ppomppu-consulting",
+      "name": "Ppomppu 컨설팅상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=consulting",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=consulting[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "ppomppu-coupon",
+      "name": "Ppomppu 쿠폰게시판",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=coupon",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=coupon[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "ppomppu-etc_consult",
+      "name": "Ppomppu 기타상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=etc_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=etc_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.96
+    },
+    {
+      "id": "ppomppu-etc_info",
+      "name": "Ppomppu 생활정보",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=etc_info",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=etc_info[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "ppomppu-event2",
+      "name": "Ppomppu 이벤트게시판",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=event2",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=event2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.72
+    },
+    {
+      "id": "ppomppu-event_ppomppu",
+      "name": "Ppomppu 이벤트뽐뿌",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=event_ppomppu",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=event_ppomppu[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.7
+    },
+    {
+      "id": "ppomppu-faq",
+      "name": "Ppomppu FAQ",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=faq",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=faq[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.65
+    },
+    {
+      "id": "ppomppu-guin",
+      "name": "Ppomppu 구인게시판",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=guin",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=guin[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 1.05
+    },
+    {
+      "id": "ppomppu-humor",
+      "name": "Ppomppu 유머게시판",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=humor",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=humor[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.64
+    },
+    {
+      "id": "ppomppu-jjalbang",
+      "name": "Ppomppu 짤방게시판",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=jjalbang",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=jjalbang[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-law_consult",
+      "name": "Ppomppu 법률상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=law_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=law_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 1.08
+    },
+    {
+      "id": "ppomppu-loan_consult",
+      "name": "Ppomppu 대출상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=loan_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=loan_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 1.06
+    },
+    {
+      "id": "ppomppu-market_data",
+      "name": "Ppomppu 데이터게시판",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=market_data",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=market_data[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.86
+    },
+    {
+      "id": "ppomppu-market_story",
+      "name": "Ppomppu 구매이야기",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=market_story",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=market_story[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "ppomppu-news_broadcast",
+      "name": "Ppomppu 뉴스방송",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news_broadcast",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news_broadcast[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.76
+    },
+    {
+      "id": "ppomppu-news_economy",
+      "name": "Ppomppu 뉴스경제",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news_economy",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news_economy[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "ppomppu-news_life",
+      "name": "Ppomppu 뉴스생활",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news_life",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news_life[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "ppomppu-news_society",
+      "name": "Ppomppu 뉴스사회",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news_society",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news_society[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "ppomppu-news_sports",
+      "name": "Ppomppu 뉴스스포츠",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news_sports",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news_sports[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.72
+    },
+    {
+      "id": "ppomppu-onmarket",
+      "name": "Ppomppu 온라인장터",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=onmarket",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=onmarket[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "ppomppu-relay",
+      "name": "Ppomppu 추천릴레이",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=relay",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=relay[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.8
+    },
+    {
+      "id": "ppomppu-tax_consult",
+      "name": "Ppomppu 세무상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=tax_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=tax_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 1.08
+    },
+    {
+      "id": "ppomppu-tele_consult",
+      "name": "Ppomppu 통신상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=tele_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=tele_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 1.04
+    },
+    {
+      "id": "ppomppu-wedding_consult",
+      "name": "Ppomppu 웨딩상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=wedding_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=wedding_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.95
+    },
+    {
+      "id": "ppomppu-youtube_info",
+      "name": "Ppomppu 유튜브정보",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=youtube_info",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=youtube_info[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "ppomppu-restaurant",
+      "name": "Ppomppu 맛집게시판",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=restaurant",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=restaurant[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.76
+    },
+    {
+      "id": "ppomppu-pc_consult",
+      "name": "Ppomppu PC상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=pc_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=pc_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.98
+    },
+    {
+      "id": "dogdrip-coin",
+      "name": "Dogdrip 코인판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/coin",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/coin\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.74
+    },
+    {
+      "id": "dogdrip-creation",
+      "name": "Dogdrip 창작판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/creation",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/creation\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dogdrip-doc",
+      "name": "Dogdrip 문서/자료",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/doc",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/doc\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dogdrip-duck",
+      "name": "Dogdrip 덕질판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/duck",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/duck\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.56
+    },
+    {
+      "id": "dogdrip-game",
+      "name": "Dogdrip 게임판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/game",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/game\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dogdrip-girlgroup",
+      "name": "Dogdrip 걸그룹판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/girlgroup",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/girlgroup\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.54
+    },
+    {
+      "id": "dogdrip-hotdeal",
+      "name": "Dogdrip 핫딜판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/hotdeal",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/hotdeal\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.72
+    },
+    {
+      "id": "dogdrip-ib",
+      "name": "Dogdrip 인터넷방송판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/ib",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/ib\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.55
+    },
+    {
+      "id": "dogdrip-lol",
+      "name": "Dogdrip 리그오브레전드판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/lol",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/lol\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "dogdrip-lostark",
+      "name": "Dogdrip 로스트아크판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/lostark",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/lostark\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "dogdrip-movie",
+      "name": "Dogdrip 영화판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/movie",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/movie\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dogdrip-music",
+      "name": "Dogdrip 음악판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/music",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/music\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dogdrip-pic",
+      "name": "Dogdrip 이미지판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/pic",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/pic\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.5
+    },
+    {
+      "id": "dogdrip-politics",
+      "name": "Dogdrip 정치사회판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/politics",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/politics\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.5
+    },
+    {
+      "id": "dogdrip-surplustime",
+      "name": "Dogdrip 시간때우기",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/surplustime",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/surplustime\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.58
+    },
+    {
+      "id": "dogdrip-userdog",
+      "name": "Dogdrip 인기글",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/userdog",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/userdog\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.56
+    },
+    {
+      "id": "dogdrip-vehicle",
+      "name": "Dogdrip 자동차판",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/vehicle",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/vehicle\\/\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.72
+    },
+    {
+      "id": "dcinside-alcohol",
+      "name": "DCInside 주류 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=alcohol",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=alcohol&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-baduk",
+      "name": "DCInside 바둑 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=baduk",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=baduk&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-baseball_new11",
+      "name": "DCInside 국내야구 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=baseball_new11",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=baseball_new11&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-baseball_new13",
+      "name": "DCInside 해외야구 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=baseball_new13",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=baseball_new13&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-battlegrounds",
+      "name": "DCInside 배틀그라운드 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=battlegrounds",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=battlegrounds&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-bitcoins",
+      "name": "DCInside 비트코인 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=bitcoins",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=bitcoins&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-cartoon",
+      "name": "DCInside 카툰 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=cartoon",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=cartoon&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-cat",
+      "name": "DCInside 고양이 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=cat",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=cat&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-d_fighter_new1",
+      "name": "DCInside 던파 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=d_fighter_new1",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=d_fighter_new1&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-divination",
+      "name": "DCInside 점성술 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=divination",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=divination&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-dog",
+      "name": "DCInside 멍멍이 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=dog",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=dog&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-fantasy_new",
+      "name": "DCInside 판타지 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=fantasy_new",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=fantasy_new&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-fish",
+      "name": "DCInside 낚시 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=fish",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=fish&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-food",
+      "name": "DCInside 음식 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=food",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=food&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-football_new6",
+      "name": "DCInside 축구 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=football_new6",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=football_new6&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-ib_new",
+      "name": "DCInside 인터넷방송 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=ib_new",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=ib_new&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-leagueoflegends2",
+      "name": "DCInside 롤 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=leagueoflegends2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=leagueoflegends2&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-stock_new2",
+      "name": "DCInside 주식(신) 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=stock_new2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=stock_new2&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-theaterM",
+      "name": "DCInside 공연/연극 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=theaterM",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=theaterM&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "dcinside-tigers_new",
+      "name": "DCInside KIA 타이거즈 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=tigers_new",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=tigers_new&no=\\d+",
+      "maxItems": 34,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "extended"
+      ],
+      "weight": 0.52
+    },
+    {
+      "id": "reddit-kpophelp",
+      "name": "Reddit r/kpophelp (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/kpophelp/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
+    },
+    {
+      "id": "reddit-kpopthoughts",
+      "name": "Reddit r/kpopthoughts (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/kpopthoughts/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
+    },
+    {
+      "id": "reddit-personalfinance",
+      "name": "Reddit r/PersonalFinance (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/PersonalFinance/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
+    },
+    {
+      "id": "reddit-jobs",
+      "name": "Reddit r/jobs (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/jobs/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
+    },
+    {
+      "id": "reddit-cscareerquestions",
+      "name": "Reddit r/cscareerquestions (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/cscareerquestions/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
+    },
+    {
+      "id": "reddit-sideproject",
+      "name": "Reddit r/sideproject (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/sideproject/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
+    },
+    {
+      "id": "reddit-entrepreneurridealong",
+      "name": "Reddit r/EntrepreneurRideAlong (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/EntrepreneurRideAlong/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
+    },
+    {
+      "id": "reddit-freelance",
+      "name": "Reddit r/freelance (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/freelance/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
+    },
+    {
+      "id": "reddit-digitalnomad",
+      "name": "Reddit r/digitalnomad (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/digitalnomad/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
+    },
+    {
+      "id": "reddit-productivity",
+      "name": "Reddit r/productivity (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/productivity/.rss",
+      "enabled": true,
+      "maxItems": 24,
+      "tags": [
+        "global",
+        "extended"
+      ],
+      "weight": 0.36
     }
   ]
 }

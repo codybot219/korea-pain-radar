@@ -54,7 +54,8 @@ npm run report
   "url": "https://example.com/feed.xml",
   "enabled": true,
   "maxItems": 80,
-  "tags": ["community"]
+  "tags": ["community"],
+  "weight": 1.0
 }
 ```
 
@@ -70,27 +71,28 @@ npm run report
   "includeLinkPattern": "\\/board\\/\\d+",
   "maxItems": 80,
   "enabled": true,
-  "tags": ["community"]
+  "tags": ["community"],
+  "weight": 1.0
 }
 ```
 
-## Default source pack (v0.3)
+## Default source pack (v0.4)
 
-현재 기본 소스는 **33개**입니다.
+현재 기본 소스는 **180개**입니다.
 
-- Ruliweb: 질문/고민상담/유게
-- Clien: 모두의공원/아무거나질문/유용한사이트/강좌·사용기
-- Nate Pann: 톡/사랑·연애/톡커들의 선택/알바·취업
-- Ppomppu: 자유게시판/정치자유게시판/휴대폰상담
-- DCInside: 프로그래밍/실시간베스트/주식/취업
-- Dogdrip: 유저개드립/컴퓨터IT/주식재테크/요리/모바일게임
-- Old Reddit: Korea 관련 커뮤니티 + startup/business 신호
+- Ruliweb (질문/고민/커뮤니티)
+- Clien (메인 + 다수 소모임/보드)
+- Nate Pann (메인 + 다수 카테고리)
+- Ppomppu (자유/이슈/상담/뉴스/쿠폰/생활 등 다중 보드)
+- DCInside (개발/취업/주식 + 다수 영역 갤러리)
+- Dogdrip (IT/재테크/요리/게임/일반/기타 보드)
+- Old Reddit (Korea 관련 + startup/business + work/productivity)
 
-즉, 컴퓨터/IT 영역에만 국한되지 않고
-관계/커리어/재무/생활/트렌드 영역까지 확장되어 있습니다.
+즉, 컴퓨터/IT 영역에 한정되지 않고
+관계/커리어/재무/생활/트렌드/취미 영역까지 크게 확장되어 있습니다.
 
-추가로 `weight` 필드를 통해 소스별 가중치를 줄 수 있습니다.
-예: 글로벌 커뮤니티 신호는 `0.6`, 국내 커뮤니티는 `1.0~1.2`.
+추가로 `weight` 필드로 소스별 반영 강도를 조절할 수 있습니다.
+예: 고의도 질문·상담 소스는 높게, 트렌드/노이즈 소스는 낮게.
 
 ## Output files
 
@@ -98,6 +100,7 @@ npm run report
 - `data/collect-latest.json` - 마지막 수집 요약
 - `data/analysis/latest-analysis.json` - 카테고리별 점수
 - `data/ideas/latest-idea.json` - 최종 아이템
+- `data/ideas/history.jsonl` - 아이디어 히스토리
 - `data/ideas/latest-discord.md` - Discord 메시지 미리보기
 
 ## Compliance policy
