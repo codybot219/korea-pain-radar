@@ -2704,6 +2704,2726 @@
         "extended"
       ],
       "weight": 0.36
+    },
+    {
+      "id": "clien-image",
+      "name": "Clien image",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/image",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/image\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-news",
+      "name": "Clien news",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/news",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/news\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-pds",
+      "name": "Clien pds",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/pds",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/pds\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-lecture",
+      "name": "Clien lecture",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/lecture",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/lecture\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-chehum",
+      "name": "Clien chehum",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/chehum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/chehum\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-hongbo",
+      "name": "Clien hongbo",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/hongbo",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/hongbo\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_iphonien",
+      "name": "Clien cm_iphonien",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_iphonien",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_iphonien\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_japanlive",
+      "name": "Clien cm_japanlive",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_japanlive",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_japanlive\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_bts",
+      "name": "Clien cm_bts",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_bts",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_bts\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_rowing",
+      "name": "Clien cm_rowing",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_rowing",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_rowing\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_app",
+      "name": "Clien cm_app",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_app",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_app\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_andro",
+      "name": "Clien cm_andro",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_andro",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_andro\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_ai",
+      "name": "Clien cm_ai",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_ai",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_ai\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_mbike",
+      "name": "Clien cm_mbike",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_mbike",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_mbike\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_girlgroup",
+      "name": "Clien cm_girlgroup",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_girlgroup",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_girlgroup\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.5
+    },
+    {
+      "id": "clien-cm_baby",
+      "name": "Clien cm_baby",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_baby",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_baby\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_fish",
+      "name": "Clien cm_fish",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_fish",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_fish\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_applewatch",
+      "name": "Clien cm_applewatch",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_applewatch",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_applewatch\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_iot",
+      "name": "Clien cm_iot",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_iot",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_iot\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_cat",
+      "name": "Clien cm_cat",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_cat",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_cat\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_poe",
+      "name": "Clien cm_poe",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_poe",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_poe\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_rasp",
+      "name": "Clien cm_rasp",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_rasp",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_rasp\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_thinkpad",
+      "name": "Clien cm_thinkpad",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_thinkpad",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_thinkpad\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_girl",
+      "name": "Clien cm_girl",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_girl",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_girl\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_gemwar",
+      "name": "Clien cm_gemwar",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_gemwar",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_gemwar\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_dia",
+      "name": "Clien cm_dia",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_dia",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_dia\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_swim",
+      "name": "Clien cm_swim",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_swim",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_swim\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_vcoin",
+      "name": "Clien cm_vcoin",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_vcoin",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_vcoin\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_werule",
+      "name": "Clien cm_werule",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_werule",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_werule\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_ku",
+      "name": "Clien cm_ku",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_ku",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_ku\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_3dmaking",
+      "name": "Clien cm_3dmaking",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_3dmaking",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_3dmaking\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "clien-cm_70",
+      "name": "Clien cm_70",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_70",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_70\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_adhd",
+      "name": "Clien cm_adhd",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_adhd",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_adhd\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_aigurim",
+      "name": "Clien cm_aigurim",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_aigurim",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_aigurim\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_airplane",
+      "name": "Clien cm_airplane",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_airplane",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_airplane\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_badmin",
+      "name": "Clien cm_badmin",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_badmin",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_badmin\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_baseball",
+      "name": "Clien cm_baseball",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_baseball",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_baseball\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_basket",
+      "name": "Clien cm_basket",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_basket",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_basket\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_bb",
+      "name": "Clien cm_bb",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_bb",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_bb\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_bear",
+      "name": "Clien cm_bear",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_bear",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_bear\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_beer",
+      "name": "Clien cm_beer",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_beer",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_beer\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_billiards",
+      "name": "Clien cm_billiards",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_billiards",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_billiards\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_blockchain",
+      "name": "Clien cm_blockchain",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_blockchain",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_blockchain\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_board",
+      "name": "Clien cm_board",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_board",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_board\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_bowling",
+      "name": "Clien cm_bowling",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_bowling",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_bowling\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_camp",
+      "name": "Clien cm_camp",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_camp",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_camp\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_civilize",
+      "name": "Clien cm_civilize",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_civilize",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_civilize\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_classic",
+      "name": "Clien cm_classic",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_classic",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_classic\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_cookierun",
+      "name": "Clien cm_cookierun",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_cookierun",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_cookierun\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_daegu",
+      "name": "Clien cm_daegu",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_daegu",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_daegu\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_danger",
+      "name": "Clien cm_danger",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_danger",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_danger\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_dduk",
+      "name": "Clien cm_dduk",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_dduk",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_dduk\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_dog",
+      "name": "Clien cm_dog",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_dog",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_dog\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_dongsup",
+      "name": "Clien cm_dongsup",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_dongsup",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_dongsup\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_drone",
+      "name": "Clien cm_drone",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_drone",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_drone\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_ebicycle",
+      "name": "Clien cm_ebicycle",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_ebicycle",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_ebicycle\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_ebook",
+      "name": "Clien cm_ebook",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_ebook",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_ebook\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_edc",
+      "name": "Clien cm_edc",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_edc",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_edc\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_eve",
+      "name": "Clien cm_eve",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_eve",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_eve\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_fashion",
+      "name": "Clien cm_fashion",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_fashion",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_fashion\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_fisher",
+      "name": "Clien cm_fisher",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_fisher",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_fisher\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_fm",
+      "name": "Clien cm_fm",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_fm",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_fm\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_formula1",
+      "name": "Clien cm_formula1",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_formula1",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_formula1\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_glasses",
+      "name": "Clien cm_glasses",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_glasses",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_glasses\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_golf",
+      "name": "Clien cm_golf",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_golf",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_golf\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_gta",
+      "name": "Clien cm_gta",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_gta",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_gta\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_gun",
+      "name": "Clien cm_gun",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_gun",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_gun\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_gym",
+      "name": "Clien cm_gym",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_gym",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_gym\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_hearth",
+      "name": "Clien cm_hearth",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_hearth",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_hearth\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_heroes",
+      "name": "Clien cm_heroes",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_heroes",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_heroes\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_instar",
+      "name": "Clien cm_instar",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_instar",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_instar\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_kara",
+      "name": "Clien cm_kara",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_kara",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_kara\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_kordle",
+      "name": "Clien cm_kordle",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_kordle",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_kordle\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_lang",
+      "name": "Clien cm_lang",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_lang",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_lang\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_leather",
+      "name": "Clien cm_leather",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_leather",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_leather\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_lego",
+      "name": "Clien cm_lego",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_lego",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_lego\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_lol",
+      "name": "Clien cm_lol",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_lol",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_lol\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_mabi",
+      "name": "Clien cm_mabi",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_mabi",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_mabi\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_main",
+      "name": "Clien cm_main",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_main",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_main\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_midra",
+      "name": "Clien cm_midra",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_midra",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_midra\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_military",
+      "name": "Clien cm_military",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_military",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_military\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_mine",
+      "name": "Clien cm_mine",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_mine",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_mine\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_monhunt",
+      "name": "Clien cm_monhunt",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_monhunt",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_monhunt\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_mount",
+      "name": "Clien cm_mount",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_mount",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_mount\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_mtg",
+      "name": "Clien cm_mtg",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_mtg",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_mtg\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_nokien",
+      "name": "Clien cm_nokien",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_nokien",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_nokien\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_note",
+      "name": "Clien cm_note",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_note",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_note\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_onair",
+      "name": "Clien cm_onair",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_onair",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_onair\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_pctuning",
+      "name": "Clien cm_pctuning",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_pctuning",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_pctuning\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_pic",
+      "name": "Clien cm_pic",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_pic",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_pic\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_picnic",
+      "name": "Clien cm_picnic",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_picnic",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_picnic\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_redeem",
+      "name": "Clien cm_redeem",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_redeem",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_redeem\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_rhythm",
+      "name": "Clien cm_rhythm",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_rhythm",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_rhythm\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_sea",
+      "name": "Clien cm_sea",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_sea",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_sea\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_sim",
+      "name": "Clien cm_sim",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_sim",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_sim\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_simsik",
+      "name": "Clien cm_simsik",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_simsik",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_simsik\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_slate",
+      "name": "Clien cm_slate",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_slate",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_slate\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_snow",
+      "name": "Clien cm_snow",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_snow",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_snow\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_soccer",
+      "name": "Clien cm_soccer",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_soccer",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_soccer\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_solo",
+      "name": "Clien cm_solo",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_solo",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_solo\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_star",
+      "name": "Clien cm_star",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_star",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_star\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_steam",
+      "name": "Clien cm_steam",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_steam",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_steam\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_surfing",
+      "name": "Clien cm_surfing",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_surfing",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_surfing\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_tennis",
+      "name": "Clien cm_tennis",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_tennis",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_tennis\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_test",
+      "name": "Clien cm_test",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_test",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_test\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_tiwatch",
+      "name": "Clien cm_tiwatch",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_tiwatch",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_tiwatch\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_tpad",
+      "name": "Clien cm_tpad",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_tpad",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_tpad\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_twit",
+      "name": "Clien cm_twit",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_twit",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_twit\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_vr",
+      "name": "Clien cm_vr",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_vr",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_vr\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_webos",
+      "name": "Clien cm_webos",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_webos",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_webos\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_whiskey",
+      "name": "Clien cm_whiskey",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_whiskey",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_whiskey\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_wine",
+      "name": "Clien cm_wine",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_wine",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_wine\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_wow",
+      "name": "Clien cm_wow",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_wow",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_wow\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-cm_wp",
+      "name": "Clien cm_wp",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/cm_wp",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/cm_wp\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-annonce",
+      "name": "Clien annonce",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/annonce",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/annonce\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-symposium",
+      "name": "Clien symposium",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/symposium",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/symposium\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-claim",
+      "name": "Clien claim",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/claim",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/claim\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-faq",
+      "name": "Clien faq",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/faq",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/faq\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "clien-bug",
+      "name": "Clien bug",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/bug",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/bug\\/\\d+",
+      "maxItems": 24,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "clien"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-ppomppu",
+      "name": "Ppomppu ppomppu",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=ppomppu[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-ppomppu2",
+      "name": "Ppomppu ppomppu2",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu2",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=ppomppu2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-ppomppu4",
+      "name": "Ppomppu ppomppu4",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu4",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=ppomppu4[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-ppomppu8",
+      "name": "Ppomppu ppomppu8",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomppu8",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=ppomppu8[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-pmarket",
+      "name": "Ppomppu pmarket",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=pmarket",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=pmarket[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-pmarket2",
+      "name": "Ppomppu pmarket2",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=pmarket2",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=pmarket2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-pmarket3",
+      "name": "Ppomppu pmarket3",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=pmarket3",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=pmarket3[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-card_market",
+      "name": "Ppomppu card_market",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=card_market",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=card_market[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "ppomppu-pmarket7",
+      "name": "Ppomppu pmarket7",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=pmarket7",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=pmarket7[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-pmarket8",
+      "name": "Ppomppu pmarket8",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=pmarket8",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=pmarket8[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-experience",
+      "name": "Ppomppu experience",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=experience",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=experience[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-wcoupon",
+      "name": "Ppomppu wcoupon",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=wcoupon",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=wcoupon[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-love",
+      "name": "Ppomppu love",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=love",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=love[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-review2",
+      "name": "Ppomppu review2",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=review2",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=review2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-receive",
+      "name": "Ppomppu receive",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=receive",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=receive[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-ppomapp",
+      "name": "Ppomppu ppomapp",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppomapp",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=ppomapp[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-ppom_game",
+      "name": "Ppomppu ppom_game",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=ppom_game",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=ppom_game[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-pol_left",
+      "name": "Ppomppu pol_left",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=pol_left",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=pol_left[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-pol_right",
+      "name": "Ppomppu pol_right",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=pol_right",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=pol_right[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-grade",
+      "name": "Ppomppu grade",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=grade",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=grade[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-campaign",
+      "name": "Ppomppu campaign",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=campaign",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=campaign[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-free_gallery",
+      "name": "Ppomppu free_gallery",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=free_gallery",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=free_gallery[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-star",
+      "name": "Ppomppu star",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=star",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=star[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-announcer",
+      "name": "Ppomppu announcer",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=announcer",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=announcer[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-sketch_gallery",
+      "name": "Ppomppu sketch_gallery",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=sketch_gallery",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=sketch_gallery[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-bg_gallery",
+      "name": "Ppomppu bg_gallery",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=bg_gallery",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=bg_gallery[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-review_gallery",
+      "name": "Ppomppu review_gallery",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=review_gallery",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=review_gallery[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-market",
+      "name": "Ppomppu market",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=market",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=market[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-market_phone",
+      "name": "Ppomppu market_phone",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=market_phone",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=market_phone[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-gonggu",
+      "name": "Ppomppu gonggu",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=gonggu",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=gonggu[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-market_agent",
+      "name": "Ppomppu market_agent",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=market_agent",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=market_agent[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-news_pol_eco",
+      "name": "Ppomppu news_pol_eco",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news_pol_eco",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news_pol_eco[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-news_culture",
+      "name": "Ppomppu news_culture",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news_culture",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news_culture[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-news_travel",
+      "name": "Ppomppu news_travel",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news_travel",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news_travel[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-news2",
+      "name": "Ppomppu news2",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news2",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-news",
+      "name": "Ppomppu news",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=news",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=news[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "ppomppu-rental_consult",
+      "name": "Ppomppu rental_consult",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=rental_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=rental_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "ppomppu-move_consult",
+      "name": "Ppomppu move_consult",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=move_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=move_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "ppomppu-security_guard_consult",
+      "name": "Ppomppu security_guard_consult",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=security_guard_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=security_guard_consult[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "ppomppu"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "dcinside-dclottery",
+      "name": "DCInside dclottery",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=dclottery",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=dclottery&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-blackpink",
+      "name": "DCInside blackpink",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=blackpink",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=blackpink&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-granblue",
+      "name": "DCInside granblue",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=granblue",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=granblue&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-bd",
+      "name": "DCInside bd",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=bd",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=bd&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-lovelyz",
+      "name": "DCInside lovelyz",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=lovelyz",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=lovelyz&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-kdani",
+      "name": "DCInside kdani",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=kdani",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=kdani&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-bts",
+      "name": "DCInside bts",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=bts",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=bts&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-twice",
+      "name": "DCInside twice",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=twice",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=twice&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-hanwhaeagles_new",
+      "name": "DCInside hanwhaeagles_new",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=hanwhaeagles_new",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=hanwhaeagles_new&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-giants_new2",
+      "name": "DCInside giants_new2",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=giants_new2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=giants_new2&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-ancheolsu",
+      "name": "DCInside ancheolsu",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=ancheolsu",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=ancheolsu&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "dcinside-cartoon_s",
+      "name": "DCInside cartoon_s",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=cartoon_s",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=cartoon_s&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
     }
   ]
 }

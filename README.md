@@ -16,6 +16,8 @@
 - `src/collect.js` - 수집 파이프라인
 - `src/analyze.js` - pain 분석 및 아이템 선정
 - `src/report-discord.js` - Discord 전송
+- `src/discover-sources.js` - 신규 소스 자동 탐지/검증
+- `src/source-auto-update.js` - 소스 자동 업데이트 스케줄 엔진
 - `src/run-once.js` - collect → analyze → report 원샷 실행
 - `data/` - 산출물 저장
 
@@ -40,6 +42,24 @@ npm run once -- --dry-run
 npm run collect
 npm run analyze
 npm run report
+```
+
+소스 자동 탐지(드라이런):
+
+```bash
+npm run sources:discover
+```
+
+소스 자동 탐지 + `sources.json` 반영:
+
+```bash
+npm run sources:discover:write
+```
+
+주기 규칙 무시하고 소스 자동업데이트 1회 강제:
+
+```bash
+npm run sources:auto-update:force
 ```
 
 ## Source types
@@ -94,6 +114,17 @@ npm run report
 추가로 `weight` 필드로 소스별 반영 강도를 조절할 수 있습니다.
 예: 고의도 질문·상담 소스는 높게, 트렌드/노이즈 소스는 낮게.
 
+## Auto source update behavior
+
+- `run-once` 실행 시 소스 자동업데이트를 먼저 확인합니다.
+- 기본값: **24시간마다 1회** 신규 소스 탐지/검증 후 `sources.json` 업데이트
+- 주요 환경변수:
+  - `PAIN_RADAR_AUTO_SOURCE_UPDATE` (기본 `1`)
+  - `PAIN_RADAR_SOURCE_UPDATE_INTERVAL_HOURS` (기본 `24`)
+  - `PAIN_RADAR_SOURCE_DISCOVERY_MIN_ITEMS` (기본 `5`)
+  - `PAIN_RADAR_SOURCE_DISCOVERY_MAX_NEW` (기본 `120`)
+  - `PAIN_RADAR_SOURCE_DISCOVERY_MAX_PROBES` (기본 `300`)
+
 ## Output files
 
 - `data/raw-posts.jsonl` - 원본 수집 데이터
@@ -102,6 +133,8 @@ npm run report
 - `data/ideas/latest-idea.json` - 최종 아이템
 - `data/ideas/history.jsonl` - 아이디어 히스토리
 - `data/ideas/latest-discord.md` - Discord 메시지 미리보기
+- `data/source-discovery-latest.json` - 마지막 소스 탐지/검증 결과
+- `data/source-discovery-state.json` - 자동업데이트 상태(마지막 실행 시각)
 
 ## Compliance policy
 

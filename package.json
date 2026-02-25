@@ -8,6 +8,10 @@
     "collect": "node src/collect.js",
     "analyze": "node src/analyze.js",
     "report": "node src/report-discord.js",
+    "sources:discover": "node src/discover-sources.js",
+    "sources:discover:write": "node src/discover-sources.js --write",
+    "sources:auto-update": "node src/source-auto-update.js",
+    "sources:auto-update:force": "node src/source-auto-update.js --force",
     "once": "node src/run-once.js",
     "once:no-report": "node src/run-once.js --no-report"
   },

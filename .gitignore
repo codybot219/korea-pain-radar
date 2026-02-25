@@ -11,3 +11,5 @@ logs/
 /data/analysis/latest-analysis.json
 /data/ideas/latest-discord.md
 /data/collect-latest.json
+/data/source-discovery-latest.json
+/data/source-discovery-state.json

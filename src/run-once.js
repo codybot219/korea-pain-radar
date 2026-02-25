@@ -1,8 +1,18 @@
 const { runCollect } = require('./collect')
 const { runAnalyze } = require('./analyze')
 const { runReport } = require('./report-discord')
+const { runSourceAutoUpdate } = require('./source-auto-update')
 
-async function runOnce({ noReport = false, dryRun = false } = {}) {
+async function runOnce({
+  noReport = false,
+  dryRun = false,
+  skipSourceUpdate = false,
+  forceSourceUpdate = false,
+} = {}) {
+  const sourceUpdate = skipSourceUpdate
+    ? { ok: true, skipped: true, reason: 'source-auto-update-skipped-by-flag' }
+    : await runSourceAutoUpdate({ force: forceSourceUpdate })
+
   const collect = await runCollect()
   const { analysis, idea } = await runAnalyze()
   const report = noReport
@@ -11,6 +21,14 @@ async function runOnce({ noReport = false, dryRun = false } = {}) {
 
   return {
     ok: true,
+    sourceUpdate: {
+      skipped: Boolean(sourceUpdate.skipped),
+      reason: sourceUpdate.reason || null,
+      addedCount: Number(sourceUpdate.addedCount || 0),
+      beforeCount: Number(sourceUpdate.beforeCount || collect.sourceCount),
+      afterCount: Number(sourceUpdate.afterCount || collect.sourceCount),
+      checkedCandidates: Number(sourceUpdate.checkedCandidates || 0),
+    },
     collect: {
       inserted: collect.inserted,
       sourceCount: collect.sourceCount,
@@ -29,8 +47,10 @@ async function runOnce({ noReport = false, dryRun = false } = {}) {
 if (require.main === module) {
   const noReport = process.argv.includes('--no-report')
   const dryRun = process.argv.includes('--dry-run')
+  const skipSourceUpdate = process.argv.includes('--skip-source-update')
+  const forceSourceUpdate = process.argv.includes('--force-source-update')
 
-  runOnce({ noReport, dryRun })
+  runOnce({ noReport, dryRun, skipSourceUpdate, forceSourceUpdate })
     .then((summary) => {
       console.log(JSON.stringify(summary, null, 2))
     })
