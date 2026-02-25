@@ -18,6 +18,30 @@ const DISCOVERY_SEEDS = {
     'https://gall.dcinside.com/board/lists?id=stock',
     'https://gall.dcinside.com/board/lists?id=employment',
   ],
+  etoland: [
+    'https://www.etoland.co.kr/bbs/board.php?bo_table=etohumor01',
+    'https://www.etoland.co.kr/bbs/board.php?bo_table=etohumor06',
+    'https://www.etoland.co.kr/bbs/board.php?bo_table=etoboard01',
+  ],
+  mlbpark: [
+    'https://mlbpark.donga.com/mp/b.php?b=bullpen',
+    'https://mlbpark.donga.com/mp/b.php?b=kbotown',
+    'https://mlbpark.donga.com/mp/b.php?b=mlbtown',
+  ],
+  inven: [
+    'https://www.inven.co.kr/board/lol/4625',
+    'https://www.inven.co.kr/board/webzine/2097',
+    'https://www.inven.co.kr/board/overwatch/4538',
+    'https://www.inven.co.kr/board/',
+  ],
+  bobaedream: [
+    'https://www.bobaedream.co.kr/list?code=freeb',
+    'https://www.bobaedream.co.kr/list?code=politic',
+    'https://www.bobaedream.co.kr/list?code=strange',
+  ],
+  slrclub: ['https://www.slrclub.com/bbs/zboard.php?id=free'],
+  todayhumor: ['https://www.todayhumor.co.kr/board/list.php?table=bestofbest'],
+  theqoo: ['https://www.theqoo.net/hot', 'https://www.theqoo.net/square'],
 }
 
 const REDDIT_DISCOVERY_LIST = [
@@ -102,12 +126,25 @@ function collectMatches(html, regex, normalize) {
 
 function defaultWeightForSource(source) {
   const id = String(source.id || '').toLowerCase()
-  if (/consult|kin|qna|question|employment|job|advice/.test(id)) return 1.0
-  if (/issue|politics|dcbest|story|girlgroup|duck/.test(id)) return 0.5
-  if (/stock|finance|tax|loan|card/.test(id)) return 0.82
+
+  if (/consult|kin|qna|question|employment|job|advice|eto_qna|todayhumor-sisaarch/.test(id)) return 1.0
+  if (/tax|loan|card|insurance|law/.test(id)) return 0.95
+
+  if (/mlbpark-/.test(id)) return 0.9
+  if (/inven-/.test(id)) return 0.84
+  if (/bobaedream-/.test(id)) return 0.88
+  if (/todayhumor-/.test(id)) return 0.82
+  if (/etoland-/.test(id)) return 0.78
+  if (/slrclub-/.test(id)) return 0.75
+  if (/theqoo-/.test(id)) return 0.68
+
+  if (/issue|politics|dcbest|story|girlgroup|duck|humor|hotdeal/.test(id)) return 0.5
+  if (/stock|finance/.test(id)) return 0.82
+
   if (/startup|entrepreneur|smallbusiness|personalfinance|jobs|freelance|digitalnomad|productivity/.test(id))
     return 0.42
   if (/reddit-/.test(id)) return 0.68
+
   return 0.62
 }
 
@@ -195,6 +232,134 @@ function buildDcinsideSource(galleryId) {
     enabled: true,
     tags: ['kr-community', 'autodiscovered', 'dcinside'],
     weight: defaultWeightForSource({ id: `dcinside-${clean}` }),
+  }
+}
+
+function buildEtolandSource(boardId) {
+  const clean = String(boardId || '').trim()
+  if (!/^[a-zA-Z0-9_]+$/.test(clean)) return null
+  const id = `etoland-${clean}`
+  return {
+    id,
+    name: `Etoland ${clean}`,
+    type: 'html-list',
+    url: `https://www.etoland.co.kr/bbs/board.php?bo_table=${clean}`,
+    itemSelector: 'a',
+    includeLinkPattern: `board\\.php\\?bo_table=${clean}[^\\n\\r\\"']*wr_id=\\d+`,
+    maxItems: 40,
+    enabled: true,
+    tags: ['kr-community', 'autodiscovered', 'etoland'],
+    weight: defaultWeightForSource({ id }),
+  }
+}
+
+function buildMlbparkSource(boardId) {
+  const clean = String(boardId || '').trim()
+  if (!/^[a-zA-Z0-9_]+$/.test(clean)) return null
+  const id = `mlbpark-${clean}`
+  return {
+    id,
+    name: `MLBPARK ${clean}`,
+    type: 'html-list',
+    url: `https://mlbpark.donga.com/mp/b.php?b=${clean}`,
+    itemSelector: 'a',
+    includeLinkPattern: `\\/mp\\/b\\.php\\?id=\\d+[^\\n\\r\\"']*b=${clean}`,
+    maxItems: 36,
+    enabled: true,
+    tags: ['kr-community', 'autodiscovered', 'mlbpark'],
+    weight: defaultWeightForSource({ id }),
+  }
+}
+
+function buildInvenSource(section, boardId) {
+  const cleanSection = String(section || '').trim().toLowerCase()
+  const cleanBoardId = String(boardId || '').trim()
+  if (!/^[a-z0-9_]+$/.test(cleanSection)) return null
+  if (!/^\d+$/.test(cleanBoardId)) return null
+  const id = `inven-${cleanSection}-${cleanBoardId}`
+  return {
+    id,
+    name: `Inven ${cleanSection}/${cleanBoardId}`,
+    type: 'html-list',
+    url: `https://www.inven.co.kr/board/${cleanSection}/${cleanBoardId}`,
+    itemSelector: 'a',
+    includeLinkPattern: `\\/board\\/${cleanSection}\\/${cleanBoardId}\\/\\d+`,
+    maxItems: 40,
+    enabled: true,
+    tags: ['kr-community', 'autodiscovered', 'inven'],
+    weight: defaultWeightForSource({ id }),
+  }
+}
+
+function buildBobaedreamSource(code) {
+  const clean = String(code || '').trim()
+  if (!/^[a-zA-Z0-9_]+$/.test(clean)) return null
+  const id = `bobaedream-${clean}`
+  return {
+    id,
+    name: `Bobaedream ${clean}`,
+    type: 'html-list',
+    url: `https://www.bobaedream.co.kr/list?code=${clean}`,
+    itemSelector: 'a',
+    includeLinkPattern: `\\/view\\?code=${clean}[^\\n\\r\\"']*(?:No|no)=\\d+`,
+    maxItems: 40,
+    enabled: true,
+    tags: ['kr-community', 'autodiscovered', 'bobaedream'],
+    weight: defaultWeightForSource({ id }),
+  }
+}
+
+function buildSlrclubSource(boardId) {
+  const clean = String(boardId || '').trim()
+  if (!/^[a-zA-Z0-9_]+$/.test(clean)) return null
+  const id = `slrclub-${clean}`
+  return {
+    id,
+    name: `SLRClub ${clean}`,
+    type: 'html-list',
+    url: `https://www.slrclub.com/bbs/zboard.php?id=${clean}`,
+    itemSelector: 'a',
+    includeLinkPattern: `\\/bbs\\/vx2\\.php\\?id=${clean}(?:&amp;|&)no=\\d+`,
+    maxItems: 32,
+    enabled: true,
+    tags: ['kr-community', 'autodiscovered', 'slrclub'],
+    weight: defaultWeightForSource({ id }),
+  }
+}
+
+function buildTodayhumorSource(table) {
+  const clean = String(table || '').trim()
+  if (!/^[a-zA-Z0-9_]+$/.test(clean)) return null
+  const id = `todayhumor-${clean}`
+  return {
+    id,
+    name: `TodayHumor ${clean}`,
+    type: 'html-list',
+    url: `https://www.todayhumor.co.kr/board/list.php?table=${clean}`,
+    itemSelector: 'a',
+    includeLinkPattern: `\\/board\\/view\\.php\\?table=${clean}[^\\n\\r\\"']*no=\\d+`,
+    maxItems: 36,
+    enabled: true,
+    tags: ['kr-community', 'autodiscovered', 'todayhumor'],
+    weight: defaultWeightForSource({ id }),
+  }
+}
+
+function buildTheqooSource(section) {
+  const clean = String(section || '').trim().toLowerCase()
+  if (!/^[a-z0-9_]+$/.test(clean)) return null
+  const id = `theqoo-${clean}`
+  return {
+    id,
+    name: `theqoo ${clean}`,
+    type: 'html-list',
+    url: `https://www.theqoo.net/${clean}`,
+    itemSelector: 'a',
+    includeLinkPattern: `\\/${clean}\\/\\d+`,
+    maxItems: 30,
+    enabled: true,
+    tags: ['kr-community', 'autodiscovered', 'theqoo'],
+    weight: defaultWeightForSource({ id }),
   }
 }
 
@@ -299,6 +464,64 @@ async function discoverCandidateSources(options = {}) {
     if (source) candidates.push(source)
   }
 
+  const etolandHtml = await seedFetch('etoland', DISCOVERY_SEEDS.etoland)
+  const etolandBoards = collectMatches(etolandHtml, /bo_table=([a-zA-Z0-9_]+)/gi)
+  for (const boardId of etolandBoards) {
+    const source = normalizeAndValidate(buildEtolandSource(boardId))
+    if (source) candidates.push(source)
+  }
+
+  const mlbparkHtml = await seedFetch('mlbpark', DISCOVERY_SEEDS.mlbpark)
+  const mlbBoards = collectMatches(mlbparkHtml, /[?&]b=([a-zA-Z0-9_]+)/gi)
+  for (const boardId of mlbBoards) {
+    const source = normalizeAndValidate(buildMlbparkSource(boardId))
+    if (source) candidates.push(source)
+  }
+
+  const invenHtml = await seedFetch('inven', DISCOVERY_SEEDS.inven)
+  const invenPairs = new Set()
+  for (const match of invenHtml.matchAll(/\/board\/([a-z0-9_]+)\/(\d+)/gi)) {
+    const section = String(match[1] || '').toLowerCase()
+    const boardId = String(match[2] || '')
+    if (!section || !boardId) continue
+    invenPairs.add(`${section}:${boardId}`)
+  }
+  for (const pair of invenPairs) {
+    const [section, boardId] = pair.split(':')
+    const source = normalizeAndValidate(buildInvenSource(section, boardId))
+    if (source) candidates.push(source)
+  }
+
+  const bobaeHtml = await seedFetch('bobaedream', DISCOVERY_SEEDS.bobaedream)
+  const bobaeCodes = collectMatches(bobaeHtml, /[?&]code=([a-zA-Z0-9_]+)/gi)
+  for (const code of bobaeCodes) {
+    const source = normalizeAndValidate(buildBobaedreamSource(code))
+    if (source) candidates.push(source)
+  }
+
+  const slrHtml = await seedFetch('slrclub', DISCOVERY_SEEDS.slrclub)
+  const slrBoards = collectMatches(slrHtml, /zboard\.php\?id=([a-zA-Z0-9_]+)/gi)
+  for (const boardId of slrBoards) {
+    const source = normalizeAndValidate(buildSlrclubSource(boardId))
+    if (source) candidates.push(source)
+  }
+
+  const todayhumorHtml = await seedFetch('todayhumor', DISCOVERY_SEEDS.todayhumor)
+  const todayhumorTables = collectMatches(todayhumorHtml, /[?&]table=([a-zA-Z0-9_]+)/gi)
+  for (const table of todayhumorTables) {
+    const source = normalizeAndValidate(buildTodayhumorSource(table))
+    if (source) candidates.push(source)
+  }
+
+  const theqooHtml = await seedFetch('theqoo', DISCOVERY_SEEDS.theqoo)
+  const theqooSections = collectMatches(theqooHtml, /\/(hot|square|beauty|love|movie|music|ktalk|kpop|sports)\//gi, (m) =>
+    String(m[1] || '').toLowerCase(),
+  )
+  for (const section of theqooSections) {
+    const source = normalizeAndValidate(buildTheqooSource(section))
+    if (source) candidates.push(source)
+  }
+
   for (const subreddit of REDDIT_DISCOVERY_LIST) {
     const source = normalizeAndValidate(buildRedditSource(subreddit))
     if (source) candidates.push(source)
@@ -327,9 +550,9 @@ async function discoverSources(options = {}) {
 
   const write = Boolean(options.write)
   const timeoutMs = asNumber(options.timeoutMs, asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_TIMEOUT_MS, 12000))
-  const minItems = asNumber(options.minItems, asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MIN_ITEMS, 5))
-  const maxNewSources = asNumber(options.maxNewSources, asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_NEW, 120))
-  const maxProbes = asNumber(options.maxProbes, asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_PROBES, 300))
+  const minItems = asNumber(options.minItems, asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MIN_ITEMS, 12))
+  const maxNewSources = asNumber(options.maxNewSources, asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_NEW, 400))
+  const maxProbes = asNumber(options.maxProbes, asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_PROBES, 1500))
   const userAgent =
     options.userAgent ||
     process.env.PAIN_RADAR_USER_AGENT ||
@@ -391,9 +614,9 @@ async function discoverSources(options = {}) {
 if (require.main === module) {
   const write = parseBoolean(getFlagValue('--write'), process.argv.includes('--write'))
   const timeoutMs = asNumber(getFlagValue('--timeout-ms'), asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_TIMEOUT_MS, 12000))
-  const minItems = asNumber(getFlagValue('--min-items'), asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MIN_ITEMS, 5))
-  const maxNewSources = asNumber(getFlagValue('--max-new'), asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_NEW, 120))
-  const maxProbes = asNumber(getFlagValue('--max-probes'), asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_PROBES, 300))
+  const minItems = asNumber(getFlagValue('--min-items'), asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MIN_ITEMS, 12))
+  const maxNewSources = asNumber(getFlagValue('--max-new'), asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_NEW, 400))
+  const maxProbes = asNumber(getFlagValue('--max-probes'), asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_PROBES, 1500))
 
   discoverSources({ write, timeoutMs, minItems, maxNewSources, maxProbes })
     .then((summary) => {

@@ -60,9 +60,9 @@ async function runSourceAutoUpdate(options = {}) {
   }
 
   const timeoutMs = asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_TIMEOUT_MS, 12000)
-  const minItems = asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MIN_ITEMS, 5)
-  const maxNewSources = asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_NEW, 120)
-  const maxProbes = asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_PROBES, 300)
+  const minItems = asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MIN_ITEMS, 12)
+  const maxNewSources = asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_NEW, 400)
+  const maxProbes = asNumber(process.env.PAIN_RADAR_SOURCE_DISCOVERY_MAX_PROBES, 1500)
 
   const result = await discoverSources({
     write: true,

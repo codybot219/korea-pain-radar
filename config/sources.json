@@ -5424,6 +5424,5974 @@
         "dcinside"
       ],
       "weight": 0.62
+    },
+    {
+      "id": "dcinside-kpopdemonhunters",
+      "name": "DCInside kpopdemonhunters",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=kpopdemonhunters",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=kpopdemonhunters&no=\\d+",
+      "maxItems": 28,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "dcinside"
+      ],
+      "weight": 0.62
+    },
+    {
+      "id": "etoland-etohumor01",
+      "name": "Etoland etohumor01",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=etohumor01",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=etohumor01[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-hotdeal",
+      "name": "Etoland hotdeal",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=hotdeal",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=hotdeal[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-etohumor07",
+      "name": "Etoland etohumor07",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=etohumor07",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=etohumor07[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-star02",
+      "name": "Etoland star02",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=star02",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=star02[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-freebbs",
+      "name": "Etoland freebbs",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=freebbs",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=freebbs[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-anony1",
+      "name": "Etoland anony1",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=anony1",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=anony1[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-sisabbs01",
+      "name": "Etoland sisabbs01",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=sisabbs01",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=sisabbs01[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-info",
+      "name": "Etoland info",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=info",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=info[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-betting",
+      "name": "Etoland betting",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=betting",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=betting[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-animal01",
+      "name": "Etoland animal01",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=animal01",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=animal01[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-zen",
+      "name": "Etoland zen",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=zen",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=zen[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-eto_qna",
+      "name": "Etoland eto_qna",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=eto_qna",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=eto_qna[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "etoland-eto_job",
+      "name": "Etoland eto_job",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=eto_job",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=eto_job[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "etoland-ai",
+      "name": "Etoland ai",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=ai",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=ai[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-history",
+      "name": "Etoland history",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=history",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=history[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-war",
+      "name": "Etoland war",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=war",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=war[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-football",
+      "name": "Etoland football",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=football",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=football[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-baseball",
+      "name": "Etoland baseball",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=baseball",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=baseball[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-sport1",
+      "name": "Etoland sport1",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=sport1",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=sport1[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-basketball",
+      "name": "Etoland basketball",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=basketball",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=basketball[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-golf",
+      "name": "Etoland golf",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=golf",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=golf[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-mma",
+      "name": "Etoland mma",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=mma",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=mma[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-car",
+      "name": "Etoland car",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=car",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=car[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-video",
+      "name": "Etoland video",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=video",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=video[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-com",
+      "name": "Etoland com",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=com",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=com[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-smart1",
+      "name": "Etoland smart1",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=smart1",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=smart1[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-movie",
+      "name": "Etoland movie",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=movie",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=movie[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-tv",
+      "name": "Etoland tv",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=tv",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=tv[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-any",
+      "name": "Etoland any",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=any",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=any[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-book",
+      "name": "Etoland book",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=book",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=book[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-mana",
+      "name": "Etoland mana",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=mana",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=mana[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-gamepc",
+      "name": "Etoland gamepc",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=gamepc",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=gamepc[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-game2",
+      "name": "Etoland game2",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=game2",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=game2[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-stock",
+      "name": "Etoland stock",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=stock",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=stock[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-coin",
+      "name": "Etoland coin",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=coin",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=coin[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-land",
+      "name": "Etoland land",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=land",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=land[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-mat",
+      "name": "Etoland mat",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=mat",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=mat[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-science",
+      "name": "Etoland science",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=science",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=science[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-best10",
+      "name": "Etoland best10",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=best10",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=best10[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-travel",
+      "name": "Etoland travel",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=travel",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=travel[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-aichat",
+      "name": "Etoland aichat",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=aichat",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=aichat[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-market",
+      "name": "Etoland market",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=market",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=market[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-zzal",
+      "name": "Etoland zzal",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=zzal",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=zzal[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-wallpaper",
+      "name": "Etoland wallpaper",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=wallpaper",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=wallpaper[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-star01",
+      "name": "Etoland star01",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=star01",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=star01[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-infl",
+      "name": "Etoland infl",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=infl",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=infl[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-star_mv",
+      "name": "Etoland star_mv",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=star_mv",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=star_mv[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-star_asia",
+      "name": "Etoland star_asia",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=star_asia",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=star_asia[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-star_world",
+      "name": "Etoland star_world",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=star_world",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=star_world[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-free_data",
+      "name": "Etoland free_data",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=free_data",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=free_data[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-eto_join",
+      "name": "Etoland eto_join",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=eto_join",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=eto_join[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-class_up",
+      "name": "Etoland class_up",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=class_up",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=class_up[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-point",
+      "name": "Etoland point",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=point",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=point[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-eto",
+      "name": "Etoland eto",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=eto",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=eto[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-market_phone",
+      "name": "Etoland market_phone",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=market_phone",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=market_phone[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-market_internet",
+      "name": "Etoland market_internet",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=market_internet",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=market_internet[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-computer1",
+      "name": "Etoland computer1",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=computer1",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=computer1[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-market_car1",
+      "name": "Etoland market_car1",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=market_car1",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=market_car1[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-insu",
+      "name": "Etoland insu",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=insu",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=insu[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-market_rental",
+      "name": "Etoland market_rental",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=market_rental",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=market_rental[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-market_money",
+      "name": "Etoland market_money",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=market_money",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=market_money[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-eto_notice",
+      "name": "Etoland eto_notice",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=eto_notice",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=eto_notice[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-etohumor06",
+      "name": "Etoland etohumor06",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=etohumor06",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=etohumor06[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "etoland-etoboard01",
+      "name": "Etoland etoboard01",
+      "type": "html-list",
+      "url": "https://www.etoland.co.kr/bbs/board.php?bo_table=etoboard01",
+      "itemSelector": "a",
+      "includeLinkPattern": "board\\.php\\?bo_table=etoboard01[^\\n\\r\\\"']*wr_id=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "etoland"
+      ],
+      "weight": 0.78
+    },
+    {
+      "id": "mlbpark-bullpen",
+      "name": "MLBPARK bullpen",
+      "type": "html-list",
+      "url": "https://mlbpark.donga.com/mp/b.php?b=bullpen",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/mp\\/b\\.php\\?id=\\d+[^\\n\\r\\\"']*b=bullpen",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "mlbpark"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "mlbpark-mlbtown",
+      "name": "MLBPARK mlbtown",
+      "type": "html-list",
+      "url": "https://mlbpark.donga.com/mp/b.php?b=mlbtown",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/mp\\/b\\.php\\?id=\\d+[^\\n\\r\\\"']*b=mlbtown",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "mlbpark"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "mlbpark-kbotown",
+      "name": "MLBPARK kbotown",
+      "type": "html-list",
+      "url": "https://mlbpark.donga.com/mp/b.php?b=kbotown",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/mp\\/b\\.php\\?id=\\d+[^\\n\\r\\\"']*b=kbotown",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "mlbpark"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "mlbpark-news",
+      "name": "MLBPARK news",
+      "type": "html-list",
+      "url": "https://mlbpark.donga.com/mp/b.php?b=news",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/mp\\/b\\.php\\?id=\\d+[^\\n\\r\\\"']*b=news",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "mlbpark"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "mlbpark-suggestion",
+      "name": "MLBPARK suggestion",
+      "type": "html-list",
+      "url": "https://mlbpark.donga.com/mp/b.php?b=suggestion",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/mp\\/b\\.php\\?id=\\d+[^\\n\\r\\\"']*b=suggestion",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "mlbpark"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "mlbpark-phone",
+      "name": "MLBPARK phone",
+      "type": "html-list",
+      "url": "https://mlbpark.donga.com/mp/b.php?b=phone",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/mp\\/b\\.php\\?id=\\d+[^\\n\\r\\\"']*b=phone",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "mlbpark"
+      ],
+      "weight": 0.9
+    },
+    {
+      "id": "inven-diablo2-5735",
+      "name": "Inven diablo2/5735",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/diablo2/5735",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/diablo2\\/5735\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-2766",
+      "name": "Inven lol/2766",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/2766",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/2766\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-3329",
+      "name": "Inven lol/3329",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/3329",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/3329\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-2786",
+      "name": "Inven lol/2786",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/2786",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/2786\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-4625",
+      "name": "Inven lol/4625",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/4625",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/4625\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-4626",
+      "name": "Inven lol/4626",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/4626",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/4626\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-4627",
+      "name": "Inven lol/4627",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/4627",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/4627\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-2999",
+      "name": "Inven lol/2999",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/2999",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/2999\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-2771",
+      "name": "Inven lol/2771",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/2771",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/2771\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-2783",
+      "name": "Inven lol/2783",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/2783",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/2783\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-5668",
+      "name": "Inven lol/5668",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/5668",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/5668\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-5473",
+      "name": "Inven lol/5473",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/5473",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/5473\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-3073",
+      "name": "Inven lol/3073",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/3073",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/3073\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-3369",
+      "name": "Inven lol/3369",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/3369",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/3369\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-3371",
+      "name": "Inven lol/3371",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/3371",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/3371\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-3370",
+      "name": "Inven lol/3370",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/3370",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/3370\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-3372",
+      "name": "Inven lol/3372",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/3372",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/3372\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-3373",
+      "name": "Inven lol/3373",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/3373",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/3373\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-2778",
+      "name": "Inven lol/2778",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/2778",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/2778\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-ib-6413",
+      "name": "Inven ib/6413",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/ib/6413",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/ib\\/6413\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-2775",
+      "name": "Inven lol/2775",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/2775",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/2775\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lol-2959",
+      "name": "Inven lol/2959",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lol/2959",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lol\\/2959\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-2097",
+      "name": "Inven webzine/2097",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/2097",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/2097\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-it-2631",
+      "name": "Inven it/2631",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/it/2631",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/it\\/2631\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-2898",
+      "name": "Inven webzine/2898",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/2898",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/2898\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-it-2417",
+      "name": "Inven it/2417",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/it/2417",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/it\\/2417\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-3715",
+      "name": "Inven webzine/3715",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/3715",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/3715\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-1565",
+      "name": "Inven webzine/1565",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/1565",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/1565\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-1288",
+      "name": "Inven webzine/1288",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/1288",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/1288\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-3558",
+      "name": "Inven webzine/3558",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/3558",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/3558\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-wow-762",
+      "name": "Inven wow/762",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/wow/762",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/wow\\/762\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-maple-5974",
+      "name": "Inven maple/5974",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/maple/5974",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/maple\\/5974\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6387",
+      "name": "Inven party/6387",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6387",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6387\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6322",
+      "name": "Inven party/6322",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6322",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6322\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6410",
+      "name": "Inven party/6410",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6410",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6410\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6346",
+      "name": "Inven party/6346",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6346",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6346\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6196",
+      "name": "Inven party/6196",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6196",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6196\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6399",
+      "name": "Inven party/6399",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6399",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6399\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6135",
+      "name": "Inven party/6135",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6135",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6135\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6037",
+      "name": "Inven party/6037",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6037",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6037\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6474",
+      "name": "Inven party/6474",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6474",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6474\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6292",
+      "name": "Inven party/6292",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6292",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6292\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4538",
+      "name": "Inven overwatch/4538",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4538",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4538\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lineageclassic-6482",
+      "name": "Inven lineageclassic/6482",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lineageclassic/6482",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lineageclassic\\/6482\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-aion2-6388",
+      "name": "Inven aion2/6388",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/aion2/6388",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/aion2\\/6388\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lineagem-5019",
+      "name": "Inven lineagem/5019",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lineagem/5019",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lineagem\\/5019\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-lostark-6271",
+      "name": "Inven lostark/6271",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/lostark/6271",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/lostark\\/6271\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-1292",
+      "name": "Inven webzine/1292",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/1292",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/1292\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-3068",
+      "name": "Inven webzine/3068",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/3068",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/3068\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-4449",
+      "name": "Inven webzine/4449",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/4449",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/4449\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-4712",
+      "name": "Inven webzine/4712",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/4712",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/4712\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-webzine-3374",
+      "name": "Inven webzine/3374",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/webzine/3374",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/webzine\\/3374\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-5951",
+      "name": "Inven party/5951",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/5951",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/5951\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4677",
+      "name": "Inven overwatch/4677",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4677",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4677\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4786",
+      "name": "Inven overwatch/4786",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4786",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4786\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4680",
+      "name": "Inven overwatch/4680",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4680",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4680\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4676",
+      "name": "Inven overwatch/4676",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4676",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4676\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-5460",
+      "name": "Inven overwatch/5460",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/5460",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/5460\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4796",
+      "name": "Inven overwatch/4796",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4796",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4796\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4751",
+      "name": "Inven overwatch/4751",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4751",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4751\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4679",
+      "name": "Inven overwatch/4679",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4679",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4679\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4789",
+      "name": "Inven overwatch/4789",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4789",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4789\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4790",
+      "name": "Inven overwatch/4790",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4790",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4790\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4678",
+      "name": "Inven overwatch/4678",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4678",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4678\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4709",
+      "name": "Inven overwatch/4709",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4709",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4709\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-overwatch-4675",
+      "name": "Inven overwatch/4675",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/overwatch/4675",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/overwatch\\/4675\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-it-5856",
+      "name": "Inven it/5856",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/it/5856",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/it\\/5856\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6495",
+      "name": "Inven party/6495",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6495",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6495\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-party-6252",
+      "name": "Inven party/6252",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/party/6252",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/party\\/6252\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-arcraiders-6412",
+      "name": "Inven arcraiders/6412",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/arcraiders/6412",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/arcraiders\\/6412\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "inven-black-3608",
+      "name": "Inven black/3608",
+      "type": "html-list",
+      "url": "https://www.inven.co.kr/board/black/3608",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/black\\/3608\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "inven"
+      ],
+      "weight": 0.84
+    },
+    {
+      "id": "bobaedream-freeb",
+      "name": "Bobaedream freeb",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=freeb",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=freeb[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-best",
+      "name": "Bobaedream best",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=best",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=best[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-cnews",
+      "name": "Bobaedream cnews",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=cnews",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=cnews[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-politic",
+      "name": "Bobaedream politic",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=politic",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=politic[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-battle",
+      "name": "Bobaedream battle",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=battle",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=battle[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-famous",
+      "name": "Bobaedream famous",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=famous",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=famous[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-bbstory",
+      "name": "Bobaedream bbstory",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=bbstory",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=bbstory[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-sports",
+      "name": "Bobaedream sports",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=sports",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=sports[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-humor",
+      "name": "Bobaedream humor",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=humor",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=humor[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-strange",
+      "name": "Bobaedream strange",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=strange",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=strange[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-accident",
+      "name": "Bobaedream accident",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=accident",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=accident[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-national",
+      "name": "Bobaedream national",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=national",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=national[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-import",
+      "name": "Bobaedream import",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=import",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=import[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-hotcar",
+      "name": "Bobaedream hotcar",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=hotcar",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=hotcar[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-dica",
+      "name": "Bobaedream dica",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=dica",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=dica[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-special",
+      "name": "Bobaedream special",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=special",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=special[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-wheel",
+      "name": "Bobaedream wheel",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=wheel",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=wheel[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-nsfw",
+      "name": "Bobaedream nsfw",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=nsfw",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=nsfw[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-girl",
+      "name": "Bobaedream girl",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=girl",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=girl[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-music",
+      "name": "Bobaedream music",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=music",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=music[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-army",
+      "name": "Bobaedream army",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=army",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=army[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-truck",
+      "name": "Bobaedream truck",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=truck",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=truck[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-skybr",
+      "name": "Bobaedream skybr",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=skybr",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=skybr[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-bike",
+      "name": "Bobaedream bike",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=bike",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=bike[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-vi",
+      "name": "Bobaedream vi",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=vi",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=vi[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "bobaedream-event_notice",
+      "name": "Bobaedream event_notice",
+      "type": "html-list",
+      "url": "https://www.bobaedream.co.kr/list?code=event_notice",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/view\\?code=event_notice[^\\n\\r\\\"']*(?:No|no)=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "bobaedream"
+      ],
+      "weight": 0.88
+    },
+    {
+      "id": "slrclub-free",
+      "name": "SLRClub free",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=free",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=free(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-politics",
+      "name": "SLRClub politics",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=politics",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=politics(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-marketinfo",
+      "name": "SLRClub marketinfo",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=marketinfo",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=marketinfo(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-pr",
+      "name": "SLRClub pr",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=pr",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=pr(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-sourcing",
+      "name": "SLRClub sourcing",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=sourcing",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=sourcing(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-vcoin",
+      "name": "SLRClub vcoin",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=vcoin",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=vcoin(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-pc",
+      "name": "SLRClub pc",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=pc",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=pc(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-pds",
+      "name": "SLRClub pds",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=pds",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=pds(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-slr_qna",
+      "name": "SLRClub slr_qna",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=slr_qna",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=slr_qna(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "slrclub-canon_d30_forum",
+      "name": "SLRClub canon_d30_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=canon_d30_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=canon_d30_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-panasonic_forum",
+      "name": "SLRClub panasonic_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=panasonic_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=panasonic_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-samsung_forum",
+      "name": "SLRClub samsung_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=samsung_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=samsung_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-sigma_forum",
+      "name": "SLRClub sigma_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=sigma_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=sigma_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-rf_forum",
+      "name": "SLRClub rf_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=rf_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=rf_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-digitalback_forum",
+      "name": "SLRClub digitalback_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=digitalback_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=digitalback_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-samyang_forum",
+      "name": "SLRClub samyang_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=samyang_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=samyang_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-sigma_lforum",
+      "name": "SLRClub sigma_lforum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=sigma_lforum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=sigma_lforum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-tamron_lforum",
+      "name": "SLRClub tamron_lforum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=tamron_lforum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=tamron_lforum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-movie_forum",
+      "name": "SLRClub movie_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=movie_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=movie_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-digitaldarkroom",
+      "name": "SLRClub digitaldarkroom",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=digitaldarkroom",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=digitaldarkroom(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-digitaldarkroom_request",
+      "name": "SLRClub digitaldarkroom_request",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=digitaldarkroom_request",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=digitaldarkroom_request(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-common_forum",
+      "name": "SLRClub common_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=common_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=common_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-photo_forum",
+      "name": "SLRClub photo_forum",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=photo_forum",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=photo_forum(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-work_gallery",
+      "name": "SLRClub work_gallery",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=work_gallery",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=work_gallery(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-theme_gallery",
+      "name": "SLRClub theme_gallery",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=theme_gallery",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=theme_gallery(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-study_gallery",
+      "name": "SLRClub study_gallery",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=study_gallery",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=study_gallery(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-press_gallery",
+      "name": "SLRClub press_gallery",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=press_gallery",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=press_gallery(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-slr_review",
+      "name": "SLRClub slr_review",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=slr_review",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=slr_review(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-user_review",
+      "name": "SLRClub user_review",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=user_review",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=user_review(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-common_review",
+      "name": "SLRClub common_review",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=common_review",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=common_review(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-user_essay",
+      "name": "SLRClub user_essay",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=user_essay",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=user_essay(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-user_lecture",
+      "name": "SLRClub user_lecture",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=user_lecture",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=user_lecture(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-slr_lecture",
+      "name": "SLRClub slr_lecture",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=slr_lecture",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=slr_lecture(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-offrec",
+      "name": "SLRClub offrec",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=offrec",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=offrec(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-best_review",
+      "name": "SLRClub best_review",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=best_review",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=best_review(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-marketprotect",
+      "name": "SLRClub marketprotect",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=marketprotect",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=marketprotect(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-finding_equip",
+      "name": "SLRClub finding_equip",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=finding_equip",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=finding_equip(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-hot_article",
+      "name": "SLRClub hot_article",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=hot_article",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=hot_article(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "slrclub-best_article",
+      "name": "SLRClub best_article",
+      "type": "html-list",
+      "url": "https://www.slrclub.com/bbs/zboard.php?id=best_article",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/bbs\\/vx2\\.php\\?id=best_article(?:&amp;|&)no=\\d+",
+      "maxItems": 32,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "slrclub"
+      ],
+      "weight": 0.75
+    },
+    {
+      "id": "todayhumor-bestofbest",
+      "name": "TodayHumor bestofbest",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bestofbest",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bestofbest[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-humorbest",
+      "name": "TodayHumor humorbest",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=humorbest",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=humorbest[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-humordata",
+      "name": "TodayHumor humordata",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=humordata",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=humordata[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-humorstory",
+      "name": "TodayHumor humorstory",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=humorstory",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=humorstory[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-freeboard",
+      "name": "TodayHumor freeboard",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=freeboard",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=freeboard[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-gomin",
+      "name": "TodayHumor gomin",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=gomin",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=gomin[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-love",
+      "name": "TodayHumor love",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=love",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=love[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-wedlock",
+      "name": "TodayHumor wedlock",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=wedlock",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=wedlock[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-lovestory",
+      "name": "TodayHumor lovestory",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=lovestory",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=lovestory[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-boast",
+      "name": "TodayHumor boast",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=boast",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=boast[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-panic",
+      "name": "TodayHumor panic",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=panic",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=panic[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-menbung",
+      "name": "TodayHumor menbung",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=menbung",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=menbung[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-soda",
+      "name": "TodayHumor soda",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=soda",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=soda[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-dream",
+      "name": "TodayHumor dream",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=dream",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=dream[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-poop",
+      "name": "TodayHumor poop",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=poop",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=poop[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-military",
+      "name": "TodayHumor military",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=military",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=military[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-military2",
+      "name": "TodayHumor military2",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=military2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=military2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-mystery",
+      "name": "TodayHumor mystery",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=mystery",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=mystery[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-soju",
+      "name": "TodayHumor soju",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=soju",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=soju[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-today",
+      "name": "TodayHumor today",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=today",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=today[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-vote",
+      "name": "TodayHumor vote",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=vote",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=vote[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-newyear",
+      "name": "TodayHumor newyear",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=newyear",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=newyear[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-sisa",
+      "name": "TodayHumor sisa",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=sisa",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=sisa[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-sisaarch",
+      "name": "TodayHumor sisaarch",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=sisaarch",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=sisaarch[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "todayhumor-society",
+      "name": "TodayHumor society",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=society",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=society[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-accident",
+      "name": "TodayHumor accident",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=accident",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=accident[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-fashion",
+      "name": "TodayHumor fashion",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=fashion",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=fashion[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-selfshot",
+      "name": "TodayHumor selfshot",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=selfshot",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=selfshot[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-babyshot",
+      "name": "TodayHumor babyshot",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=babyshot",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=babyshot[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-beauty",
+      "name": "TodayHumor beauty",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=beauty",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=beauty[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-interior",
+      "name": "TodayHumor interior",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=interior",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=interior[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-diy",
+      "name": "TodayHumor diy",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=diy",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=diy[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-cook",
+      "name": "TodayHumor cook",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=cook",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=cook[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-coffee",
+      "name": "TodayHumor coffee",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=coffee",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=coffee[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-baby",
+      "name": "TodayHumor baby",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=baby",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=baby[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-law",
+      "name": "TodayHumor law",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=law",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=law[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.95
+    },
+    {
+      "id": "todayhumor-animal",
+      "name": "TodayHumor animal",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=animal",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=animal[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-readers",
+      "name": "TodayHumor readers",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=readers",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=readers[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-jisik",
+      "name": "TodayHumor jisik",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=jisik",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=jisik[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-jobinfo",
+      "name": "TodayHumor jobinfo",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=jobinfo",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=jobinfo[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 1
+    },
+    {
+      "id": "todayhumor-plant",
+      "name": "TodayHumor plant",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=plant",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=plant[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-diet",
+      "name": "TodayHumor diet",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=diet",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=diet[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-medical",
+      "name": "TodayHumor medical",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=medical",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=medical[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-english",
+      "name": "TodayHumor english",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=english",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=english[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-matzip",
+      "name": "TodayHumor matzip",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=matzip",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=matzip[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-favor",
+      "name": "TodayHumor favor",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=favor",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=favor[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-overseabuy",
+      "name": "TodayHumor overseabuy",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=overseabuy",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=overseabuy[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-deca",
+      "name": "TodayHumor deca",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=deca",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=deca[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-photolec",
+      "name": "TodayHumor photolec",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=photolec",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=photolec[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-camera",
+      "name": "TodayHumor camera",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=camera",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=camera[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-comics",
+      "name": "TodayHumor comics",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=comics",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=comics[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-animation",
+      "name": "TodayHumor animation",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=animation",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=animation[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-pony",
+      "name": "TodayHumor pony",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=pony",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=pony[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bicycle2",
+      "name": "TodayHumor bicycle2",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bicycle2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bicycle2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-car",
+      "name": "TodayHumor car",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=car",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=car[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-travel",
+      "name": "TodayHumor travel",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=travel",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=travel[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-motorcycle",
+      "name": "TodayHumor motorcycle",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=motorcycle",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=motorcycle[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-rivfishing",
+      "name": "TodayHumor rivfishing",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=rivfishing",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=rivfishing[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-seafishing",
+      "name": "TodayHumor seafishing",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=seafishing",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=seafishing[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-toy",
+      "name": "TodayHumor toy",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=toy",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=toy[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-oekaki",
+      "name": "TodayHumor oekaki",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=oekaki",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=oekaki[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-economy",
+      "name": "TodayHumor economy",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=economy",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=economy[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-history",
+      "name": "TodayHumor history",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=history",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=history[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-art",
+      "name": "TodayHumor art",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=art",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=art[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-science",
+      "name": "TodayHumor science",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=science",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=science[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-phil",
+      "name": "TodayHumor phil",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=phil",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=phil[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-psy",
+      "name": "TodayHumor psy",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=psy",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=psy[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-star",
+      "name": "TodayHumor star",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=star",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=star[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-music",
+      "name": "TodayHumor music",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=music",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=music[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-findmusic",
+      "name": "TodayHumor findmusic",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=findmusic",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=findmusic[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-instrument",
+      "name": "TodayHumor instrument",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=instrument",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=instrument[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-sound",
+      "name": "TodayHumor sound",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=sound",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=sound[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-movie",
+      "name": "TodayHumor movie",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=movie",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=movie[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-docu",
+      "name": "TodayHumor docu",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=docu",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=docu[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-drama",
+      "name": "TodayHumor drama",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=drama",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=drama[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-mid",
+      "name": "TodayHumor mid",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=mid",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=mid[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-tvent",
+      "name": "TodayHumor tvent",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=tvent",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=tvent[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-podcast",
+      "name": "TodayHumor podcast",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=podcast",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=podcast[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-muhan",
+      "name": "TodayHumor muhan",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=muhan",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=muhan[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-thegenius",
+      "name": "TodayHumor thegenius",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=thegenius",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=thegenius[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-gagconcert",
+      "name": "TodayHumor gagconcert",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=gagconcert",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=gagconcert[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-runningman",
+      "name": "TodayHumor runningman",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=runningman",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=runningman[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-computer",
+      "name": "TodayHumor computer",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=computer",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=computer[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-programmer",
+      "name": "TodayHumor programmer",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=programmer",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=programmer[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-it",
+      "name": "TodayHumor it",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=it",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=it[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-antivirus",
+      "name": "TodayHumor antivirus",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=antivirus",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=antivirus[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-iphone",
+      "name": "TodayHumor iphone",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=iphone",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=iphone[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-android",
+      "name": "TodayHumor android",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=android",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=android[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-smartphone",
+      "name": "TodayHumor smartphone",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=smartphone",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=smartphone[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-windowsmobile",
+      "name": "TodayHumor windowsmobile",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=windowsmobile",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=windowsmobile[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-symbian",
+      "name": "TodayHumor symbian",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=symbian",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=symbian[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-sports",
+      "name": "TodayHumor sports",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=sports",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=sports[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-soccer",
+      "name": "TodayHumor soccer",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=soccer",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=soccer[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-baseball",
+      "name": "TodayHumor baseball",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=baseball",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=baseball[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-basketball",
+      "name": "TodayHumor basketball",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=basketball",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=basketball[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-baduk",
+      "name": "TodayHumor baduk",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=baduk",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=baduk[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbsamsung",
+      "name": "TodayHumor bbsamsung",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbsamsung",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbsamsung[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbdoosan",
+      "name": "TodayHumor bbdoosan",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbdoosan",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbdoosan[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbnc",
+      "name": "TodayHumor bbnc",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbnc",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbnc[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbnexen",
+      "name": "TodayHumor bbnexen",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbnexen",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbnexen[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbhanwha",
+      "name": "TodayHumor bbhanwha",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbhanwha",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbhanwha[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbsk",
+      "name": "TodayHumor bbsk",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbsk",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbsk[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbkia",
+      "name": "TodayHumor bbkia",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbkia",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbkia[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bblotte",
+      "name": "TodayHumor bblotte",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bblotte",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bblotte[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bblg",
+      "name": "TodayHumor bblg",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bblg",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bblg[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbkt",
+      "name": "TodayHumor bbkt",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbkt",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbkt[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbmlb",
+      "name": "TodayHumor bbmlb",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbmlb",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbmlb[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bbnpb",
+      "name": "TodayHumor bbnpb",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bbnpb",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bbnpb[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-gameroom",
+      "name": "TodayHumor gameroom",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=gameroom",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=gameroom[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-gametalk",
+      "name": "TodayHumor gametalk",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=gametalk",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=gametalk[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-xbox",
+      "name": "TodayHumor xbox",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=xbox",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=xbox[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-ps",
+      "name": "TodayHumor ps",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=ps",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=ps[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-nintendo",
+      "name": "TodayHumor nintendo",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=nintendo",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=nintendo[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-mobilegame",
+      "name": "TodayHumor mobilegame",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=mobilegame",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=mobilegame[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-dungeon",
+      "name": "TodayHumor dungeon",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=dungeon",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=dungeon[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-lol",
+      "name": "TodayHumor lol",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=lol",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=lol[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-mabinogi",
+      "name": "TodayHumor mabinogi",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=mabinogi",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=mabinogi[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-mabi",
+      "name": "TodayHumor mabi",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=mabi",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=mabi[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-hstone",
+      "name": "TodayHumor hstone",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=hstone",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=hstone[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-heroes",
+      "name": "TodayHumor heroes",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=heroes",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=heroes[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-gta5",
+      "name": "TodayHumor gta5",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=gta5",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=gta5[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-diablo3",
+      "name": "TodayHumor diablo3",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=diablo3",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=diablo3[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-diablo2",
+      "name": "TodayHumor diablo2",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=diablo2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=diablo2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-fifa2",
+      "name": "TodayHumor fifa2",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=fifa2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=fifa2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-fifa3",
+      "name": "TodayHumor fifa3",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=fifa3",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=fifa3[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-warcraft",
+      "name": "TodayHumor warcraft",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=warcraft",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=warcraft[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-wow",
+      "name": "TodayHumor wow",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=wow",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=wow[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-actozma",
+      "name": "TodayHumor actozma",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=actozma",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=actozma[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-wtank",
+      "name": "TodayHumor wtank",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=wtank",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=wtank[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bns",
+      "name": "TodayHumor bns",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bns",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bns[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-starcraft",
+      "name": "TodayHumor starcraft",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=starcraft",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=starcraft[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-starcraft2",
+      "name": "TodayHumor starcraft2",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=starcraft2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=starcraft2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-bf3",
+      "name": "TodayHumor bf3",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=bf3",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=bf3[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-minecraft",
+      "name": "TodayHumor minecraft",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=minecraft",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=minecraft[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-dayz",
+      "name": "TodayHumor dayz",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=dayz",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=dayz[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-civil",
+      "name": "TodayHumor civil",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=civil",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=civil[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-suddenattack",
+      "name": "TodayHumor suddenattack",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=suddenattack",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=suddenattack[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-tera",
+      "name": "TodayHumor tera",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=tera",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=tera[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-aion",
+      "name": "TodayHumor aion",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=aion",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=aion[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-simcity5",
+      "name": "TodayHumor simcity5",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=simcity5",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=simcity5[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-ff",
+      "name": "TodayHumor ff",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=ff",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=ff[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-specialforce",
+      "name": "TodayHumor specialforce",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=specialforce",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=specialforce[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-cyphers",
+      "name": "TodayHumor cyphers",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=cyphers",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=cyphers[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-dota2",
+      "name": "TodayHumor dota2",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=dota2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=dota2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-maple1",
+      "name": "TodayHumor maple1",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=maple1",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=maple1[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-maple2",
+      "name": "TodayHumor maple2",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=maple2",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=maple2[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-overwatch",
+      "name": "TodayHumor overwatch",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=overwatch",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=overwatch[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-overgroup",
+      "name": "TodayHumor overgroup",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=overgroup",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=overgroup[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-pokemongo",
+      "name": "TodayHumor pokemongo",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=pokemongo",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=pokemongo[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-ffantasy14",
+      "name": "TodayHumor ffantasy14",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=ffantasy14",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=ffantasy14[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-battlegrnd",
+      "name": "TodayHumor battlegrnd",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=battlegrnd",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=battlegrnd[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-religion",
+      "name": "TodayHumor religion",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=religion",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=religion[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-voca",
+      "name": "TodayHumor voca",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=voca",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=voca[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-announce",
+      "name": "TodayHumor announce",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=announce",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=announce[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-ou",
+      "name": "TodayHumor ou",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=ou",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=ou[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-askboard",
+      "name": "TodayHumor askboard",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=askboard",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=askboard[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-mers",
+      "name": "TodayHumor mers",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=mers",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=mers[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-sewol",
+      "name": "TodayHumor sewol",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=sewol",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=sewol[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-fukushima",
+      "name": "TodayHumor fukushima",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=fukushima",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=fukushima[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-rio2016",
+      "name": "TodayHumor rio2016",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=rio2016",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=rio2016[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-corona19",
+      "name": "TodayHumor corona19",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=corona19",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=corona19[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-tokyo2020",
+      "name": "TodayHumor tokyo2020",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=tokyo2020",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=tokyo2020[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-emigration",
+      "name": "TodayHumor emigration",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=emigration",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=emigration[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "todayhumor-blacksand",
+      "name": "TodayHumor blacksand",
+      "type": "html-list",
+      "url": "https://www.todayhumor.co.kr/board/list.php?table=blacksand",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\.php\\?table=blacksand[^\\n\\r\\\"']*no=\\d+",
+      "maxItems": 36,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "todayhumor"
+      ],
+      "weight": 0.82
+    },
+    {
+      "id": "theqoo-hot",
+      "name": "theqoo hot",
+      "type": "html-list",
+      "url": "https://www.theqoo.net/hot",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/hot\\/\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "theqoo"
+      ],
+      "weight": 0.68
+    },
+    {
+      "id": "theqoo-square",
+      "name": "theqoo square",
+      "type": "html-list",
+      "url": "https://www.theqoo.net/square",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/square\\/\\d+",
+      "maxItems": 30,
+      "enabled": true,
+      "tags": [
+        "kr-community",
+        "autodiscovered",
+        "theqoo"
+      ],
+      "weight": 0.68
     }
   ]
 }
