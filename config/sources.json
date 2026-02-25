@@ -7,7 +7,11 @@
       "url": "https://bbs.ruliweb.com/community/board/300142/rss",
       "enabled": true,
       "maxItems": 60,
-      "tags": ["kr-community", "question"]
+      "tags": [
+        "kr-community",
+        "question"
+      ],
+      "weight": 1.4
     },
     {
       "id": "ruliweb-counsel",
@@ -16,7 +20,11 @@
       "url": "https://bbs.ruliweb.com/community/board/300147/rss",
       "enabled": true,
       "maxItems": 60,
-      "tags": ["kr-community", "pain-point"]
+      "tags": [
+        "kr-community",
+        "pain-point"
+      ],
+      "weight": 1.35
     },
     {
       "id": "ruliweb-general",
@@ -25,9 +33,12 @@
       "url": "https://bbs.ruliweb.com/community/board/300143/rss",
       "enabled": true,
       "maxItems": 50,
-      "tags": ["kr-community", "trend"]
+      "tags": [
+        "kr-community",
+        "trend"
+      ],
+      "weight": 0.75
     },
-
     {
       "id": "clien-park",
       "name": "Clien 모두의공원",
@@ -37,7 +48,11 @@
       "includeLinkPattern": "\\/service\\/board\\/park\\/\\d+",
       "maxItems": 60,
       "enabled": true,
-      "tags": ["kr-community", "discussion"]
+      "tags": [
+        "kr-community",
+        "discussion"
+      ],
+      "weight": 0.75
     },
     {
       "id": "clien-kin",
@@ -48,7 +63,11 @@
       "includeLinkPattern": "\\/service\\/board\\/kin\\/\\d+",
       "maxItems": 60,
       "enabled": true,
-      "tags": ["kr-community", "qna"]
+      "tags": [
+        "kr-community",
+        "qna"
+      ],
+      "weight": 1.35
     },
     {
       "id": "clien-useful",
@@ -59,7 +78,11 @@
       "includeLinkPattern": "\\/service\\/board\\/useful\\/\\d+",
       "maxItems": 40,
       "enabled": true,
-      "tags": ["kr-community", "utility"]
+      "tags": [
+        "kr-community",
+        "utility"
+      ],
+      "weight": 1.1
     },
     {
       "id": "clien-use",
@@ -70,9 +93,12 @@
       "includeLinkPattern": "\\/service\\/board\\/use\\/\\d+",
       "maxItems": 40,
       "enabled": true,
-      "tags": ["kr-community", "review"]
+      "tags": [
+        "kr-community",
+        "review"
+      ],
+      "weight": 1
     },
-
     {
       "id": "pann-talk",
       "name": "Nate Pann 톡",
@@ -83,7 +109,11 @@
       "excludeLinkPattern": "\\/reply\\/",
       "maxItems": 80,
       "enabled": true,
-      "tags": ["kr-community", "general"]
+      "tags": [
+        "kr-community",
+        "general"
+      ],
+      "weight": 0.7
     },
     {
       "id": "pann-love",
@@ -95,7 +125,11 @@
       "excludeLinkPattern": "\\/reply\\/",
       "maxItems": 80,
       "enabled": true,
-      "tags": ["kr-community", "relationship"]
+      "tags": [
+        "kr-community",
+        "relationship"
+      ],
+      "weight": 0.65
     },
     {
       "id": "pann-story",
@@ -107,7 +141,11 @@
       "excludeLinkPattern": "\\/reply\\/",
       "maxItems": 80,
       "enabled": true,
-      "tags": ["kr-community", "story"]
+      "tags": [
+        "kr-community",
+        "story"
+      ],
+      "weight": 0.65
     },
     {
       "id": "pann-alba",
@@ -119,9 +157,12 @@
       "excludeLinkPattern": "\\/reply\\/",
       "maxItems": 60,
       "enabled": true,
-      "tags": ["kr-community", "job"]
+      "tags": [
+        "kr-community",
+        "job"
+      ],
+      "weight": 1.1
     },
-
     {
       "id": "ppomppu-freeboard",
       "name": "Ppomppu 자유게시판",
@@ -131,7 +172,11 @@
       "includeLinkPattern": "view\\.php\\?id=freeboard[^\n\r\"']*no=\\d+",
       "maxItems": 60,
       "enabled": true,
-      "tags": ["kr-community", "discussion"]
+      "tags": [
+        "kr-community",
+        "discussion"
+      ],
+      "weight": 0.9
     },
     {
       "id": "ppomppu-issue",
@@ -142,7 +187,11 @@
       "includeLinkPattern": "view\\.php\\?id=issue[^\n\r\"']*no=\\d+",
       "maxItems": 50,
       "enabled": true,
-      "tags": ["kr-community", "issue"]
+      "tags": [
+        "kr-community",
+        "issue"
+      ],
+      "weight": 0.55
     },
     {
       "id": "ppomppu-phone-consult",
@@ -153,9 +202,12 @@
       "includeLinkPattern": "view\\.php\\?id=phone_consult[^\n\r\"']*no=\\d+",
       "maxItems": 40,
       "enabled": true,
-      "tags": ["kr-community", "consult"]
+      "tags": [
+        "kr-community",
+        "consult"
+      ],
+      "weight": 1.35
     },
-
     {
       "id": "dcinside-programming",
       "name": "DCInside 프로그래밍 갤러리",
@@ -165,7 +217,11 @@
       "includeLinkPattern": "\\/board\\/view\\/\\?id=programming&no=\\d+",
       "maxItems": 50,
       "enabled": true,
-      "tags": ["kr-community", "developer"]
+      "tags": [
+        "kr-community",
+        "developer"
+      ],
+      "weight": 1
     },
     {
       "id": "dcinside-dcbest",
@@ -175,9 +231,12 @@
       "itemSelector": "a",
       "includeLinkPattern": "\\/board\\/view\\/\\?id=dcbest&no=\\d+",
       "maxItems": 60,
-      "weight": 0.8,
+      "weight": 0.45,
       "enabled": true,
-      "tags": ["kr-community", "trend"]
+      "tags": [
+        "kr-community",
+        "trend"
+      ]
     },
     {
       "id": "dcinside-stock",
@@ -188,7 +247,11 @@
       "includeLinkPattern": "\\/board\\/view\\/\\?id=stock&no=\\d+",
       "maxItems": 50,
       "enabled": true,
-      "tags": ["kr-community", "finance"]
+      "tags": [
+        "kr-community",
+        "finance"
+      ],
+      "weight": 0.9
     },
     {
       "id": "dcinside-employment",
@@ -199,9 +262,12 @@
       "includeLinkPattern": "\\/board\\/view\\/\\?id=employment&no=\\d+",
       "maxItems": 50,
       "enabled": true,
-      "tags": ["kr-community", "job"]
+      "tags": [
+        "kr-community",
+        "job"
+      ],
+      "weight": 1.2
     },
-
     {
       "id": "dogdrip-dogdrip",
       "name": "Dogdrip 유저개드립",
@@ -211,7 +277,11 @@
       "includeLinkPattern": "\\/dogdrip\\/\\d+",
       "maxItems": 60,
       "enabled": true,
-      "tags": ["kr-community", "general"]
+      "tags": [
+        "kr-community",
+        "general"
+      ],
+      "weight": 0.6
     },
     {
       "id": "dogdrip-computer",
@@ -222,7 +292,11 @@
       "includeLinkPattern": "\\/computer\\/\\d+",
       "maxItems": 50,
       "enabled": true,
-      "tags": ["kr-community", "it"]
+      "tags": [
+        "kr-community",
+        "it"
+      ],
+      "weight": 0.95
     },
     {
       "id": "dogdrip-stock",
@@ -233,7 +307,11 @@
       "includeLinkPattern": "\\/stock\\/\\d+",
       "maxItems": 50,
       "enabled": true,
-      "tags": ["kr-community", "finance"]
+      "tags": [
+        "kr-community",
+        "finance"
+      ],
+      "weight": 0.85
     },
     {
       "id": "dogdrip-cook",
@@ -244,7 +322,11 @@
       "includeLinkPattern": "\\/cook\\/\\d+",
       "maxItems": 40,
       "enabled": true,
-      "tags": ["kr-community", "lifestyle"]
+      "tags": [
+        "kr-community",
+        "lifestyle"
+      ],
+      "weight": 0.65
     },
     {
       "id": "dogdrip-mobilegame",
@@ -255,9 +337,12 @@
       "includeLinkPattern": "\\/mobilegame\\/\\d+",
       "maxItems": 40,
       "enabled": true,
-      "tags": ["kr-community", "gaming"]
+      "tags": [
+        "kr-community",
+        "gaming"
+      ],
+      "weight": 0.6
     },
-
     {
       "id": "reddit-korea",
       "name": "Reddit r/korea (old)",
@@ -265,8 +350,11 @@
       "url": "https://old.reddit.com/r/korea/.rss",
       "enabled": true,
       "maxItems": 40,
-      "weight": 0.9,
-      "tags": ["korea", "expat"]
+      "weight": 0.75,
+      "tags": [
+        "korea",
+        "expat"
+      ]
     },
     {
       "id": "reddit-hanguk",
@@ -275,8 +363,11 @@
       "url": "https://old.reddit.com/r/hanguk/.rss",
       "enabled": true,
       "maxItems": 40,
-      "weight": 0.9,
-      "tags": ["korean-language", "community"]
+      "weight": 0.75,
+      "tags": [
+        "korean-language",
+        "community"
+      ]
     },
     {
       "id": "reddit-koreatravel",
@@ -285,8 +376,11 @@
       "url": "https://old.reddit.com/r/koreatravel/.rss",
       "enabled": true,
       "maxItems": 40,
-      "weight": 0.9,
-      "tags": ["travel", "korea"]
+      "weight": 0.75,
+      "tags": [
+        "travel",
+        "korea"
+      ]
     },
     {
       "id": "reddit-korean",
@@ -295,8 +389,11 @@
       "url": "https://old.reddit.com/r/korean/.rss",
       "enabled": true,
       "maxItems": 40,
-      "weight": 0.9,
-      "tags": ["language", "korea"]
+      "weight": 0.75,
+      "tags": [
+        "language",
+        "korea"
+      ]
     },
     {
       "id": "reddit-living-in-korea",
@@ -305,8 +402,11 @@
       "url": "https://old.reddit.com/r/living_in_korea/.rss",
       "enabled": true,
       "maxItems": 40,
-      "weight": 0.9,
-      "tags": ["korea", "life"]
+      "weight": 0.75,
+      "tags": [
+        "korea",
+        "life"
+      ]
     },
     {
       "id": "reddit-teachinginkorea",
@@ -315,8 +415,11 @@
       "url": "https://old.reddit.com/r/teachinginkorea/.rss",
       "enabled": true,
       "maxItems": 40,
-      "weight": 0.9,
-      "tags": ["korea", "education"]
+      "weight": 0.75,
+      "tags": [
+        "korea",
+        "education"
+      ]
     },
     {
       "id": "reddit-koreanadvice",
@@ -325,10 +428,12 @@
       "url": "https://old.reddit.com/r/koreanadvice/.rss",
       "enabled": true,
       "maxItems": 40,
-      "weight": 0.9,
-      "tags": ["korea", "advice"]
+      "weight": 0.8,
+      "tags": [
+        "korea",
+        "advice"
+      ]
     },
-
     {
       "id": "reddit-startup",
       "name": "Reddit r/startup (old)",
@@ -336,8 +441,11 @@
       "url": "https://old.reddit.com/r/startup/.rss",
       "enabled": true,
       "maxItems": 35,
-      "weight": 0.6,
-      "tags": ["global", "startup"]
+      "weight": 0.45,
+      "tags": [
+        "global",
+        "startup"
+      ]
     },
     {
       "id": "reddit-entrepreneur",
@@ -346,8 +454,11 @@
       "url": "https://old.reddit.com/r/Entrepreneur/.rss",
       "enabled": true,
       "maxItems": 35,
-      "weight": 0.6,
-      "tags": ["global", "business"]
+      "weight": 0.45,
+      "tags": [
+        "global",
+        "business"
+      ]
     },
     {
       "id": "reddit-smallbusiness",
@@ -356,8 +467,11 @@
       "url": "https://old.reddit.com/r/smallbusiness/.rss",
       "enabled": true,
       "maxItems": 35,
-      "weight": 0.6,
-      "tags": ["global", "smallbiz"]
+      "weight": 0.45,
+      "tags": [
+        "global",
+        "smallbiz"
+      ]
     }
   ]
 }

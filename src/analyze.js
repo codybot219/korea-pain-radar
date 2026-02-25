@@ -167,6 +167,9 @@ const PLAYBOOK = {
   },
 }
 
+const HIGH_INTENT_TAGS = new Set(['qna', 'question', 'pain-point', 'consult', 'job', 'advice'])
+const LOW_INTENT_TAGS = new Set(['trend', 'story', 'relationship', 'gaming'])
+
 function asNumber(value, fallback) {
   const n = Number(value)
   return Number.isFinite(n) && n > 0 ? n : fallback
@@ -256,16 +259,24 @@ function buildCategorySummary(signals) {
         totalPain: 0,
         totalUrgency: 0,
         totalPaySignals: 0,
+        highIntentMentions: 0,
+        lowIntentMentions: 0,
         uniqueSources: new Set(),
         painHitMap: new Map(),
         evidence: [],
       }
+
+      const tags = Array.isArray(signal.post.tags) ? signal.post.tags : []
+      const highIntent = tags.some((tag) => HIGH_INTENT_TAGS.has(String(tag || '').toLowerCase()))
+      const lowIntent = tags.some((tag) => LOW_INTENT_TAGS.has(String(tag || '').toLowerCase()))
 
       current.mentions += 1
       current.totalSignalScore += signal.meta.signalScore
       current.totalPain += signal.meta.painScore
       current.totalUrgency += signal.meta.urgencyScore
       current.totalPaySignals += signal.meta.paySignalScore
+      if (highIntent) current.highIntentMentions += 1
+      if (lowIntent) current.lowIntentMentions += 1
       current.uniqueSources.add(signal.post.sourceId)
 
       for (const [label, count] of Object.entries(signal.meta.painHits)) {
@@ -275,6 +286,7 @@ function buildCategorySummary(signals) {
       current.evidence.push({
         sourceName: signal.post.sourceName,
         sourceId: signal.post.sourceId,
+        sourceTags: tags,
         title: signal.post.title,
         link: signal.post.link,
         publishedAt: signal.post.publishedAt,
@@ -293,12 +305,18 @@ function buildCategorySummary(signals) {
     .map((item) => {
       const avgSignal = item.mentions > 0 ? item.totalSignalScore / item.mentions : 0
       const sourceDiversity = item.uniqueSources.size
+      const highIntentRatio = item.mentions > 0 ? item.highIntentMentions / item.mentions : 0
+      const lowIntentRatio = item.mentions > 0 ? item.lowIntentMentions / item.mentions : 0
+
       const marketScore =
-        item.mentions * 2 +
+        item.mentions * 1.6 +
         avgSignal * 1.8 +
-        item.totalPaySignals * 1.5 +
+        item.totalPaySignals * 1.4 +
         sourceDiversity * 1.2 +
-        item.totalUrgency * 0.8
+        item.totalUrgency * 0.7 +
+        item.highIntentMentions * 2.6 +
+        highIntentRatio * 12 -
+        lowIntentRatio * 3
 
       const topPainTerms = [...item.painHitMap.entries()]
         .sort((a, b) => b[1] - a[1])
@@ -316,6 +334,9 @@ function buildCategorySummary(signals) {
         avgSignalScore: Number(avgSignal.toFixed(2)),
         totalPaySignals: item.totalPaySignals,
         totalUrgency: item.totalUrgency,
+        highIntentMentions: item.highIntentMentions,
+        highIntentRatio: Number(highIntentRatio.toFixed(2)),
+        lowIntentMentions: item.lowIntentMentions,
         sourceDiversity,
         marketScore: Number(marketScore.toFixed(2)),
         topPainTerms,
@@ -411,7 +432,10 @@ async function runAnalyze() {
 
   const categories = buildCategorySummary(signals)
   const rankedBusinessCategories = categories.filter((entry) => entry.categoryId !== 'uncategorized')
-  const topCategory = rankedBusinessCategories[0] || categories[0] || null
+  const highIntentPreferred = rankedBusinessCategories.filter(
+    (entry) => entry.highIntentRatio >= 0.18 || entry.highIntentMentions >= 5,
+  )
+  const topCategory = highIntentPreferred[0] || rankedBusinessCategories[0] || categories[0] || null
 
   const analysis = {
     ok: true,
