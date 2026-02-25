@@ -40,9 +40,14 @@ function normalizeText(value) {
 function isLowValueTitle(title) {
   const text = String(title || '').trim()
   if (!text) return true
+
   if (/^\d+$/.test(text)) return true
+  if (/^\[\d+\s*\/\s*\d+\]$/.test(text)) return true
   if (/^(댓글|추천|조회|좋아요|reply|comments?)$/i.test(text)) return true
-  if (!/[가-힣a-zA-Z]/.test(text) && text.length < 6) return true
+  if (/^답변\s*[·•]?\s*\d+$/i.test(text)) return true
+  if (/이용\s*안내|게시판\s*이용\s*규칙|서버\s*이전|개설\s*및\s*이용안내/i.test(text)) return true
+
+  if (!/[가-힣a-zA-Z]/.test(text) && text.length < 8) return true
   return false
 }
 

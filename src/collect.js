@@ -34,6 +34,8 @@ function buildPost(source, item, fetchedAt) {
   const title = String(item.title || '').trim()
   const summary = String(item.summary || '').trim()
   const text = [title, summary].filter(Boolean).join(' | ')
+  const sourceWeightRaw = Number(source.weight)
+  const sourceWeight = Number.isFinite(sourceWeightRaw) && sourceWeightRaw > 0 ? sourceWeightRaw : 1
 
   return {
     id,
@@ -45,6 +47,7 @@ function buildPost(source, item, fetchedAt) {
     summary,
     text,
     tags: Array.isArray(source.tags) ? source.tags : [],
+    sourceWeight,
     publishedAt: item.publishedAt || fetchedAt,
     fetchedAt,
   }

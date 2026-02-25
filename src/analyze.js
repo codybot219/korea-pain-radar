@@ -221,7 +221,10 @@ function classifyPost(post) {
   const ageHours = Number.isFinite(publishedAtMs) ? Math.max(0, (Date.now() - publishedAtMs) / 3600000) : 999
   const recencyBoost = ageHours <= 24 ? 1.35 : ageHours <= 72 ? 1.15 : 1
 
-  const signalScore = (painScore * 2 + urgencyScore * 1.4 + paySignalScore * 1.8) * recencyBoost
+  const baseSignalScore = (painScore * 2 + urgencyScore * 1.4 + paySignalScore * 1.8) * recencyBoost
+  const sourceWeightRaw = Number(post.sourceWeight)
+  const sourceWeight = Number.isFinite(sourceWeightRaw) && sourceWeightRaw > 0 ? sourceWeightRaw : 1
+  const signalScore = baseSignalScore * sourceWeight
 
   return {
     painScore,
@@ -229,6 +232,8 @@ function classifyPost(post) {
     paySignalScore,
     painHits,
     categories,
+    sourceWeight: Number(sourceWeight.toFixed(2)),
+    baseSignalScore: Number(baseSignalScore.toFixed(2)),
     signalScore: Number(signalScore.toFixed(2)),
     ageHours: Number(ageHours.toFixed(1)),
   }
@@ -274,6 +279,8 @@ function buildCategorySummary(signals) {
         link: signal.post.link,
         publishedAt: signal.post.publishedAt,
         signalScore: signal.meta.signalScore,
+        baseSignalScore: signal.meta.baseSignalScore,
+        sourceWeight: signal.meta.sourceWeight,
         painScore: signal.meta.painScore,
         paySignalScore: signal.meta.paySignalScore,
       })

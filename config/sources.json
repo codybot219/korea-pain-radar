@@ -6,7 +6,7 @@
       "type": "rss",
       "url": "https://bbs.ruliweb.com/community/board/300142/rss",
       "enabled": true,
-      "maxItems": 80,
+      "maxItems": 60,
       "tags": ["kr-community", "question"]
     },
     {
@@ -15,7 +15,7 @@
       "type": "rss",
       "url": "https://bbs.ruliweb.com/community/board/300147/rss",
       "enabled": true,
-      "maxItems": 80,
+      "maxItems": 60,
       "tags": ["kr-community", "pain-point"]
     },
     {
@@ -24,9 +24,10 @@
       "type": "rss",
       "url": "https://bbs.ruliweb.com/community/board/300143/rss",
       "enabled": true,
-      "maxItems": 60,
+      "maxItems": 50,
       "tags": ["kr-community", "trend"]
     },
+
     {
       "id": "clien-park",
       "name": "Clien 모두의공원",
@@ -34,10 +35,44 @@
       "url": "https://www.clien.net/service/board/park",
       "itemSelector": "a",
       "includeLinkPattern": "\\/service\\/board\\/park\\/\\d+",
-      "maxItems": 80,
+      "maxItems": 60,
       "enabled": true,
       "tags": ["kr-community", "discussion"]
     },
+    {
+      "id": "clien-kin",
+      "name": "Clien 아무거나질문",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/kin",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/kin\\/\\d+",
+      "maxItems": 60,
+      "enabled": true,
+      "tags": ["kr-community", "qna"]
+    },
+    {
+      "id": "clien-useful",
+      "name": "Clien 유용한사이트",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/useful",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/useful\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": ["kr-community", "utility"]
+    },
+    {
+      "id": "clien-use",
+      "name": "Clien 강좌/사용기",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/use",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/use\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": ["kr-community", "review"]
+    },
+
     {
       "id": "pann-talk",
       "name": "Nate Pann 톡",
@@ -48,8 +83,45 @@
       "excludeLinkPattern": "\\/reply\\/",
       "maxItems": 80,
       "enabled": true,
-      "tags": ["kr-community", "pain-point"]
+      "tags": ["kr-community", "general"]
     },
+    {
+      "id": "pann-love",
+      "name": "Nate Pann 사랑/연애",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20008",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 80,
+      "enabled": true,
+      "tags": ["kr-community", "relationship"]
+    },
+    {
+      "id": "pann-story",
+      "name": "Nate Pann 톡커들의 선택",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20038",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 80,
+      "enabled": true,
+      "tags": ["kr-community", "story"]
+    },
+    {
+      "id": "pann-alba",
+      "name": "Nate Pann 알바/취업",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk/c20020",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 60,
+      "enabled": true,
+      "tags": ["kr-community", "job"]
+    },
+
     {
       "id": "ppomppu-freeboard",
       "name": "Ppomppu 자유게시판",
@@ -57,10 +129,33 @@
       "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=freeboard",
       "itemSelector": "a",
       "includeLinkPattern": "view\\.php\\?id=freeboard[^\n\r\"']*no=\\d+",
-      "maxItems": 80,
+      "maxItems": 60,
       "enabled": true,
       "tags": ["kr-community", "discussion"]
     },
+    {
+      "id": "ppomppu-issue",
+      "name": "Ppomppu 정치자유게시판",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=issue",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=issue[^\n\r\"']*no=\\d+",
+      "maxItems": 50,
+      "enabled": true,
+      "tags": ["kr-community", "issue"]
+    },
+    {
+      "id": "ppomppu-phone-consult",
+      "name": "Ppomppu 휴대폰상담",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=phone_consult",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=phone_consult[^\n\r\"']*no=\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": ["kr-community", "consult"]
+    },
+
     {
       "id": "dcinside-programming",
       "name": "DCInside 프로그래밍 갤러리",
@@ -68,9 +163,55 @@
       "url": "https://gall.dcinside.com/board/lists?id=programming",
       "itemSelector": "a",
       "includeLinkPattern": "\\/board\\/view\\/\\?id=programming&no=\\d+",
-      "maxItems": 80,
+      "maxItems": 50,
       "enabled": true,
       "tags": ["kr-community", "developer"]
+    },
+    {
+      "id": "dcinside-dcbest",
+      "name": "DCInside 실시간베스트",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=dcbest",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=dcbest&no=\\d+",
+      "maxItems": 60,
+      "weight": 0.8,
+      "enabled": true,
+      "tags": ["kr-community", "trend"]
+    },
+    {
+      "id": "dcinside-stock",
+      "name": "DCInside 주식 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=stock",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=stock&no=\\d+",
+      "maxItems": 50,
+      "enabled": true,
+      "tags": ["kr-community", "finance"]
+    },
+    {
+      "id": "dcinside-employment",
+      "name": "DCInside 취업 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=employment",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=employment&no=\\d+",
+      "maxItems": 50,
+      "enabled": true,
+      "tags": ["kr-community", "job"]
+    },
+
+    {
+      "id": "dogdrip-dogdrip",
+      "name": "Dogdrip 유저개드립",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/dogdrip",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/dogdrip\\/\\d+",
+      "maxItems": 60,
+      "enabled": true,
+      "tags": ["kr-community", "general"]
     },
     {
       "id": "dogdrip-computer",
@@ -79,7 +220,7 @@
       "url": "https://www.dogdrip.net/computer",
       "itemSelector": "a",
       "includeLinkPattern": "\\/computer\\/\\d+",
-      "maxItems": 80,
+      "maxItems": 50,
       "enabled": true,
       "tags": ["kr-community", "it"]
     },
@@ -90,17 +231,41 @@
       "url": "https://www.dogdrip.net/stock",
       "itemSelector": "a",
       "includeLinkPattern": "\\/stock\\/\\d+",
-      "maxItems": 80,
+      "maxItems": 50,
       "enabled": true,
       "tags": ["kr-community", "finance"]
     },
+    {
+      "id": "dogdrip-cook",
+      "name": "Dogdrip 요리",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/cook",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/cook\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": ["kr-community", "lifestyle"]
+    },
+    {
+      "id": "dogdrip-mobilegame",
+      "name": "Dogdrip 모바일게임",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/mobilegame",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/mobilegame\\/\\d+",
+      "maxItems": 40,
+      "enabled": true,
+      "tags": ["kr-community", "gaming"]
+    },
+
     {
       "id": "reddit-korea",
       "name": "Reddit r/korea (old)",
       "type": "rss",
       "url": "https://old.reddit.com/r/korea/.rss",
       "enabled": true,
-      "maxItems": 60,
+      "maxItems": 40,
+      "weight": 0.9,
       "tags": ["korea", "expat"]
     },
     {
@@ -109,7 +274,8 @@
       "type": "rss",
       "url": "https://old.reddit.com/r/hanguk/.rss",
       "enabled": true,
-      "maxItems": 60,
+      "maxItems": 40,
+      "weight": 0.9,
       "tags": ["korean-language", "community"]
     },
     {
@@ -118,7 +284,8 @@
       "type": "rss",
       "url": "https://old.reddit.com/r/koreatravel/.rss",
       "enabled": true,
-      "maxItems": 60,
+      "maxItems": 40,
+      "weight": 0.9,
       "tags": ["travel", "korea"]
     },
     {
@@ -127,7 +294,8 @@
       "type": "rss",
       "url": "https://old.reddit.com/r/korean/.rss",
       "enabled": true,
-      "maxItems": 60,
+      "maxItems": 40,
+      "weight": 0.9,
       "tags": ["language", "korea"]
     },
     {
@@ -136,7 +304,8 @@
       "type": "rss",
       "url": "https://old.reddit.com/r/living_in_korea/.rss",
       "enabled": true,
-      "maxItems": 60,
+      "maxItems": 40,
+      "weight": 0.9,
       "tags": ["korea", "life"]
     },
     {
@@ -145,8 +314,50 @@
       "type": "rss",
       "url": "https://old.reddit.com/r/teachinginkorea/.rss",
       "enabled": true,
-      "maxItems": 60,
+      "maxItems": 40,
+      "weight": 0.9,
       "tags": ["korea", "education"]
+    },
+    {
+      "id": "reddit-koreanadvice",
+      "name": "Reddit r/koreanadvice (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/koreanadvice/.rss",
+      "enabled": true,
+      "maxItems": 40,
+      "weight": 0.9,
+      "tags": ["korea", "advice"]
+    },
+
+    {
+      "id": "reddit-startup",
+      "name": "Reddit r/startup (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/startup/.rss",
+      "enabled": true,
+      "maxItems": 35,
+      "weight": 0.6,
+      "tags": ["global", "startup"]
+    },
+    {
+      "id": "reddit-entrepreneur",
+      "name": "Reddit r/Entrepreneur (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/Entrepreneur/.rss",
+      "enabled": true,
+      "maxItems": 35,
+      "weight": 0.6,
+      "tags": ["global", "business"]
+    },
+    {
+      "id": "reddit-smallbusiness",
+      "name": "Reddit r/smallbusiness (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/smallbusiness/.rss",
+      "enabled": true,
+      "maxItems": 35,
+      "weight": 0.6,
+      "tags": ["global", "smallbiz"]
     }
   ]
 }
