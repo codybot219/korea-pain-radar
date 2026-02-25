@@ -10,6 +10,7 @@ const {
   loadEnvFile,
 } = require('./utils')
 const { fetchRss } = require('./lib/rss')
+const { fetchHtmlList } = require('./lib/html-list')
 
 const SOURCES_PATH = path.join(ROOT, 'config', 'sources.json')
 const RAW_POSTS_PATH = path.join(DATA_DIR, 'raw-posts.jsonl')
@@ -67,7 +68,14 @@ async function runCollect() {
   let inserted = 0
 
   for (const source of sources) {
-    if (String(source.type || 'rss').toLowerCase() !== 'rss') {
+    const type = String(source.type || 'rss').toLowerCase()
+
+    let result = null
+    if (type === 'rss') {
+      result = await fetchRss(source.url, { timeoutMs, userAgent })
+    } else if (type === 'html-list') {
+      result = await fetchHtmlList(source, { timeoutMs, userAgent })
+    } else {
       stats.push({
         sourceId: source.id,
         sourceName: source.name,
@@ -79,7 +87,6 @@ async function runCollect() {
       continue
     }
 
-    const result = await fetchRss(source.url, { timeoutMs, userAgent })
     if (!result.ok) {
       stats.push({
         sourceId: source.id,
@@ -93,7 +100,8 @@ async function runCollect() {
     }
 
     let sourceInserted = 0
-    const sample = result.items.slice(0, maxItemsPerSource)
+    const perSourceMax = asNumber(source.maxItems, maxItemsPerSource)
+    const sample = result.items.slice(0, perSourceMax)
 
     for (const item of sample) {
       const post = buildPost(source, item, fetchedAt)

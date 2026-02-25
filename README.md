@@ -5,7 +5,7 @@
 
 ## What it does
 
-1. **Collect**: 공개 RSS 피드에서 글 제목/요약/링크 수집
+1. **Collect**: RSS + 공개 HTML 리스트(커뮤니티 게시판)에서 제목/링크/요약 수집
 2. **Analyze**: pain keyword, 긴급도, 결제 신호 기반 점수화
 3. **Select**: 카테고리별 시장성 점수 계산 후 top 1 아이템 선정
 4. **Report**: Discord webhook으로 요약 리포트 발송
@@ -52,24 +52,51 @@ npm run report
 
 ## Source policy
 
-- `sources.json`에 **공개 접근 가능한 피드만** 등록하세요.
+- `sources.json`에 **공개 접근 가능한 소스만** 등록하세요.
 - 각 사이트 **robots.txt / 이용약관 / API 정책**을 반드시 준수하세요.
-- 로그인 우회, 차단 우회, 과도한 요청은 금지합니다.
+- 로그인 우회, 차단 우회, 비인가 수집, 과도한 요청은 금지합니다.
 
-## Example sources
+## Source types
 
-기본 샘플은 공개 RSS 기반입니다. 필요하면 직접 교체하세요.
+### 1) RSS
 
 ```json
 {
-  "id": "your-source",
-  "name": "Your Community",
+  "id": "your-rss-source",
+  "name": "Your Community RSS",
   "type": "rss",
   "url": "https://example.com/feed.xml",
+  "enabled": true,
+  "maxItems": 80,
+  "tags": ["community"]
+}
+```
+
+### 2) HTML list
+
+```json
+{
+  "id": "your-html-source",
+  "name": "Your Community Board",
+  "type": "html-list",
+  "url": "https://example.com/board",
+  "itemSelector": "a",
+  "includeLinkPattern": "\\/board\\/\\d+",
+  "maxItems": 80,
   "enabled": true,
   "tags": ["community"]
 }
 ```
+
+## Default source pack (v0.2)
+
+- Ruliweb: 질문/고민상담/유게 (RSS)
+- Clien 모두의공원 (HTML)
+- Nate Pann 톡 (HTML)
+- Ppomppu 자유게시판 (HTML)
+- DCInside 프로그래밍 갤러리 (HTML)
+- Dogdrip 컴퓨터/IT, 주식/재테크 (HTML)
+- Old Reddit Korea-related communities (RSS)
 
 ## OpenClaw operation pattern (recommended)
 

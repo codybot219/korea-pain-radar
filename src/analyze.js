@@ -16,64 +16,72 @@ const IDEA_MARKDOWN_PATH = path.join(DATA_DIR, 'ideas', 'latest-discord.md')
 
 const PAIN_LEXICON = [
   { label: '도움요청', re: /도와주|도움|문의|질문드려|알려주|해결.?안/gi },
+  { label: '도움요청(EN)', re: /\bhelp\b|any advice|how do i|how can i|looking for advice/gi },
   { label: '불편', re: /불편|번거롭|불편함|고생/gi },
   { label: '시간소모', re: /시간.?낭비|시간.?오래|시간.?많이|느리|지연/gi },
-  { label: '복잡', re: /복잡|헷갈|어렵|난해/gi },
-  { label: '실패', re: /안되|안 돼|실패|오류|버그|고장|렉|버퍼링|끊김/gi },
-  { label: '스트레스', re: /짜증|스트레스|빡세|빡침|답답|두렵|무섭/gi },
-  { label: '건강걱정', re: /아프|통증|병원|수술|증후군|장애|부상/gi },
-  { label: '비용부담', re: /비싸|가격|비용|돈.?아깝|부담금|보험료/gi },
-  { label: '반복노동', re: /반복|수작업|노가다|복붙|수동/gi },
+  { label: '복잡', re: /복잡|헷갈|어렵|난해|too complex|confusing/gi },
+  { label: '실패', re: /안되|안 돼|실패|오류|버그|고장|렉|버퍼링|끊김|not working|doesn'?t work|error|failed|issue/gi },
+  { label: '스트레스', re: /짜증|스트레스|빡세|빡침|답답|두렵|무섭|frustrat|stress|anxious/gi },
+  { label: '건강걱정', re: /아프|통증|병원|수술|증후군|장애|부상|pain|hospital|surgery/gi },
+  { label: '비용부담', re: /비싸|가격|비용|돈.?아깝|부담금|보험료|expensive|cost|price|budget/gi },
+  { label: '반복노동', re: /반복|수작업|노가다|복붙|수동|manual|repetitive/gi },
 ]
 
 const URGENCY_LEXICON = [
   /급하|당장|빨리|즉시|도와주세요/gi,
   /마감|데드라인|일정.?촉박/gi,
   /오늘.?안에|이번.?주|이번.?달|며칠.?고생/gi,
+  /urgent|asap|right away|deadline|running out of time/gi,
 ]
 
 const PAY_SIGNAL_LEXICON = [
   /유료|결제|구독/gi,
   /비용|가격|예산|단가/gi,
   /돈.?주고|월\s*\d+|만원|원\s*지불/gi,
+  /paid|subscription|pricing|willing to pay|budget/gi,
 ]
 
 const CATEGORY_RULES = [
   {
     id: 'workflow-automation',
     label: '반복업무 자동화',
-    keywords: ['엑셀', '복붙', '반복', '수작업', '정리', '보고서', '업무', '자동화', '매크로'],
+    keywords: ['엑셀', '복붙', '반복', '수작업', '정리', '보고서', '업무', '자동화', '매크로', 'automation', 'manual', 'spreadsheet'],
   },
   {
     id: 'tech-support-assistant',
     label: '일상 기술문제 해결',
-    keywords: ['계정', '로그인', '버퍼링', '렉', '오류', '안되', '저장', '매칭', '설정', '패치'],
+    keywords: ['계정', '로그인', '버퍼링', '렉', '오류', '안되', '저장', '매칭', '설정', '패치', 'account', 'login', 'error', 'bug', 'issue', 'not working'],
   },
   {
     id: 'career-anxiety-tooling',
     label: '커리어/직장 불안 해결',
-    keywords: ['이직', '경력', '취업', '출근', '직장', '면접', '선배님', '커리어'],
+    keywords: ['이직', '경력', '취업', '출근', '직장', '면접', '선배님', '커리어', 'career', 'job', 'interview', 'resume', 'work anxiety'],
   },
   {
     id: 'healthcare-life-admin',
     label: '생활행정/헬스케어 불편',
-    keywords: ['병원', '통증', '수술', '증후군', '보험', '부담금', '장애', '진료', '약'],
+    keywords: ['병원', '통증', '수술', '증후군', '보험', '부담금', '장애', '진료', '약', 'hospital', 'clinic', 'pain', 'surgery', 'medical'],
   },
   {
     id: 'finance-insurance-guidance',
     label: '보험/재무 의사결정 보조',
-    keywords: ['보험', '부담금', '보험금', '동일증권', '환율', '주식', '금리', '지출'],
+    keywords: ['보험', '부담금', '보험금', '동일증권', '환율', '주식', '금리', '지출', 'insurance', 'invest', 'stock', 'price', 'cost', 'budget'],
   },
   {
     id: 'creator-content-ops',
     label: '콘텐츠 제작/운영 자동화',
-    keywords: ['영상', '편집', '썸네일', '업로드', '릴스', '쇼츠', '블로그', '콘텐츠', '크리에이터'],
+    keywords: ['영상', '편집', '썸네일', '업로드', '릴스', '쇼츠', '블로그', '콘텐츠', '크리에이터', 'content', 'creator', 'youtube', 'thumbnail'],
   },
   {
     id: 'smallbiz-operations',
     label: '소상공인 운영 효율',
-    keywords: ['매장', '사장', '재고', '발주', '예약', '주문', '손님', '사입', '매출'],
+    keywords: ['매장', '사장', '재고', '발주', '예약', '주문', '손님', '사입', '매출', 'restaurant', 'store', 'inventory', 'booking', 'order'],
   },
+  {
+    id: 'expat-life-korea',
+    label: '외국인 한국생활 문제 해결',
+    keywords: ['visa', 'housing', 'landlord', 'korea', 'foreigner', 'immigration', 'arc', 'korean class'],
+  }
 ]
 
 const PLAYBOOK = {
@@ -126,6 +134,16 @@ const PLAYBOOK = {
       '커뮤니티 Q&A 기반 질문 템플릿 자동 추천',
     ],
     goToMarket: '보험·재테크 커뮤니티와 공동 콘텐츠 배포',
+  },
+  'expat-life-korea': {
+    title: '외국인 한국생활 문제 해결 허브',
+    targetUsers: '한국 거주 외국인/유학생/예정자',
+    mvp: [
+      '비자·주거·은행·통신 이슈 해결 가이드 자동 추천',
+      '서류/절차 체크리스트 생성',
+      '지역·언어별 커뮤니티 QA 추천',
+    ],
+    goToMarket: 'expat 커뮤니티 + 유학/정착 채널과 파트너십',
   },
   'creator-content-ops': {
     title: '1인 크리에이터 콘텐츠 운영 자동화 툴',
@@ -186,14 +204,16 @@ function classifyPost(post) {
   }
 
   if (!categories.length) {
-    if (/병원|통증|수술|증후군|보험|부담금|장애/.test(text)) {
+    if (/병원|통증|수술|증후군|보험|부담금|장애|hospital|medical|surgery/.test(text)) {
       categories.push({ categoryId: 'healthcare-life-admin', categoryLabel: '생활행정/헬스케어 불편', keywordHits: 1 })
-    } else if (/이직|출근|경력|취업|면접|직장/.test(text)) {
+    } else if (/이직|출근|경력|취업|면접|직장|career|job|interview|work/.test(text)) {
       categories.push({ categoryId: 'career-anxiety-tooling', categoryLabel: '커리어/직장 불안 해결', keywordHits: 1 })
-    } else if (/계정|버퍼링|렉|오류|안되|매칭|저장|설정|패치/.test(text)) {
+    } else if (/계정|버퍼링|렉|오류|안되|매칭|저장|설정|패치|error|issue|not working|login/.test(text)) {
       categories.push({ categoryId: 'tech-support-assistant', categoryLabel: '일상 기술문제 해결', keywordHits: 1 })
-    } else if (/보험|환율|주식|용돈|비용|가격|부담/.test(text)) {
+    } else if (/보험|환율|주식|용돈|비용|가격|부담|insurance|stock|cost|price|budget/.test(text)) {
       categories.push({ categoryId: 'finance-insurance-guidance', categoryLabel: '보험/재무 의사결정 보조', keywordHits: 1 })
+    } else if (/visa|housing|immigration|foreigner|expat|arc/.test(text)) {
+      categories.push({ categoryId: 'expat-life-korea', categoryLabel: '외국인 한국생활 문제 해결', keywordHits: 1 })
     }
   }
 

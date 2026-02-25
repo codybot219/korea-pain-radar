@@ -12,6 +12,7 @@
     "once:no-report": "node src/run-once.js --no-report"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "fast-xml-parser": "^4.5.1"
   }
 }

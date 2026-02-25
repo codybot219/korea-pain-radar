@@ -6,7 +6,8 @@
       "type": "rss",
       "url": "https://bbs.ruliweb.com/community/board/300142/rss",
       "enabled": true,
-      "tags": ["community", "question"]
+      "maxItems": 80,
+      "tags": ["kr-community", "question"]
     },
     {
       "id": "ruliweb-counsel",
@@ -14,7 +15,8 @@
       "type": "rss",
       "url": "https://bbs.ruliweb.com/community/board/300147/rss",
       "enabled": true,
-      "tags": ["community", "pain-point"]
+      "maxItems": 80,
+      "tags": ["kr-community", "pain-point"]
     },
     {
       "id": "ruliweb-general",
@@ -22,7 +24,129 @@
       "type": "rss",
       "url": "https://bbs.ruliweb.com/community/board/300143/rss",
       "enabled": true,
-      "tags": ["community", "trend"]
+      "maxItems": 60,
+      "tags": ["kr-community", "trend"]
+    },
+    {
+      "id": "clien-park",
+      "name": "Clien 모두의공원",
+      "type": "html-list",
+      "url": "https://www.clien.net/service/board/park",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/service\\/board\\/park\\/\\d+",
+      "maxItems": 80,
+      "enabled": true,
+      "tags": ["kr-community", "discussion"]
+    },
+    {
+      "id": "pann-talk",
+      "name": "Nate Pann 톡",
+      "type": "html-list",
+      "url": "https://pann.nate.com/talk",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/talk\\/\\d+",
+      "excludeLinkPattern": "\\/reply\\/",
+      "maxItems": 80,
+      "enabled": true,
+      "tags": ["kr-community", "pain-point"]
+    },
+    {
+      "id": "ppomppu-freeboard",
+      "name": "Ppomppu 자유게시판",
+      "type": "html-list",
+      "url": "https://www.ppomppu.co.kr/zboard/zboard.php?id=freeboard",
+      "itemSelector": "a",
+      "includeLinkPattern": "view\\.php\\?id=freeboard[^\n\r\"']*no=\\d+",
+      "maxItems": 80,
+      "enabled": true,
+      "tags": ["kr-community", "discussion"]
+    },
+    {
+      "id": "dcinside-programming",
+      "name": "DCInside 프로그래밍 갤러리",
+      "type": "html-list",
+      "url": "https://gall.dcinside.com/board/lists?id=programming",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/board\\/view\\/\\?id=programming&no=\\d+",
+      "maxItems": 80,
+      "enabled": true,
+      "tags": ["kr-community", "developer"]
+    },
+    {
+      "id": "dogdrip-computer",
+      "name": "Dogdrip 컴퓨터/IT",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/computer",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/computer\\/\\d+",
+      "maxItems": 80,
+      "enabled": true,
+      "tags": ["kr-community", "it"]
+    },
+    {
+      "id": "dogdrip-stock",
+      "name": "Dogdrip 주식/재테크",
+      "type": "html-list",
+      "url": "https://www.dogdrip.net/stock",
+      "itemSelector": "a",
+      "includeLinkPattern": "\\/stock\\/\\d+",
+      "maxItems": 80,
+      "enabled": true,
+      "tags": ["kr-community", "finance"]
+    },
+    {
+      "id": "reddit-korea",
+      "name": "Reddit r/korea (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/korea/.rss",
+      "enabled": true,
+      "maxItems": 60,
+      "tags": ["korea", "expat"]
+    },
+    {
+      "id": "reddit-hanguk",
+      "name": "Reddit r/hanguk (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/hanguk/.rss",
+      "enabled": true,
+      "maxItems": 60,
+      "tags": ["korean-language", "community"]
+    },
+    {
+      "id": "reddit-koreatravel",
+      "name": "Reddit r/koreatravel (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/koreatravel/.rss",
+      "enabled": true,
+      "maxItems": 60,
+      "tags": ["travel", "korea"]
+    },
+    {
+      "id": "reddit-korean",
+      "name": "Reddit r/korean (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/korean/.rss",
+      "enabled": true,
+      "maxItems": 60,
+      "tags": ["language", "korea"]
+    },
+    {
+      "id": "reddit-living-in-korea",
+      "name": "Reddit r/living_in_korea (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/living_in_korea/.rss",
+      "enabled": true,
+      "maxItems": 60,
+      "tags": ["korea", "life"]
+    },
+    {
+      "id": "reddit-teachinginkorea",
+      "name": "Reddit r/teachinginkorea (old)",
+      "type": "rss",
+      "url": "https://old.reddit.com/r/teachinginkorea/.rss",
+      "enabled": true,
+      "maxItems": 60,
+      "tags": ["korea", "education"]
     }
   ]
 }
