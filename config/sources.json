@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "id": "ruliweb-qna",
+      "name": "Ruliweb Questions Board",
+      "type": "rss",
+      "url": "https://bbs.ruliweb.com/community/board/300142/rss",
+      "enabled": true,
+      "tags": ["community", "question"]
+    },
+    {
+      "id": "ruliweb-counsel",
+      "name": "Ruliweb 고민상담",
+      "type": "rss",
+      "url": "https://bbs.ruliweb.com/community/board/300147/rss",
+      "enabled": true,
+      "tags": ["community", "pain-point"]
+    },
+    {
+      "id": "ruliweb-general",
+      "name": "Ruliweb 유게 잡담",
+      "type": "rss",
+      "url": "https://bbs.ruliweb.com/community/board/300143/rss",
+      "enabled": true,
+      "tags": ["community", "trend"]
+    }
+  ]
+}

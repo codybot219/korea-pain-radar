@@ -1,0 +1,13 @@
+node_modules/
+.env
+
+# Runtime artifacts
+logs/
+
+# Keep generated directories but not large data dumps
+/data/raw-posts.jsonl
+/data/ideas/history.jsonl
+/data/ideas/latest-idea.json
+/data/analysis/latest-analysis.json
+/data/ideas/latest-discord.md
+/data/collect-latest.json
