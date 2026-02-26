@@ -1,3 +1,4 @@
+const fs = require('node:fs')
 const path = require('node:path')
 const {
   ROOT,
@@ -13,6 +14,7 @@ const ANALYSIS_LATEST_PATH = path.join(DATA_DIR, 'analysis', 'latest-analysis.js
 const IDEA_LATEST_PATH = path.join(DATA_DIR, 'ideas', 'latest-idea.json')
 const IDEA_HISTORY_PATH = path.join(DATA_DIR, 'ideas', 'history.jsonl')
 const IDEA_MARKDOWN_PATH = path.join(DATA_DIR, 'ideas', 'latest-discord.md')
+const IDEA_TOPIC_TRACKER_PATH = path.join(DATA_DIR, 'ideas', 'topic-tracker.md')
 
 const PAIN_LEXICON = [
   { label: '도움요청', re: /도와주|도움|문의|질문드려|알려주|해결.?안/gi },
@@ -178,6 +180,169 @@ function asNumber(value, fallback) {
 function countMatches(text, regex) {
   const matches = text.match(regex)
   return matches ? matches.length : 0
+}
+
+function escapeMdCell(value) {
+  return String(value == null ? '' : value)
+    .replace(/\|/g, '\\|')
+    .replace(/\r?\n/g, '<br/>')
+    .trim()
+}
+
+function toKstTimestamp(iso) {
+  const d = new Date(iso || Date.now())
+  if (Number.isNaN(d.getTime())) return ''
+  return new Intl.DateTimeFormat('ko-KR', {
+    timeZone: 'Asia/Seoul',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  }).format(d)
+}
+
+function selectDiversifiedCategory(categories, ideaHistory) {
+  if (!Array.isArray(categories) || !categories.length) return null
+
+  const history = Array.isArray(ideaHistory) ? ideaHistory.filter(Boolean) : []
+  const lastCategoryId = String(history[history.length - 1]?.categoryId || '').trim()
+
+  const rotationWindow = asNumber(process.env.PAIN_RADAR_CATEGORY_ROTATION_WINDOW, 8)
+  const repeatPenalty = asNumber(process.env.PAIN_RADAR_CATEGORY_REPEAT_PENALTY, 32)
+  const lastCategoryPenalty = asNumber(process.env.PAIN_RADAR_LAST_CATEGORY_PENALTY, 95)
+  const minRelativeScore = Math.max(0, Number(process.env.PAIN_RADAR_MIN_RELATIVE_SCORE || 0.45))
+  const minAbsoluteScore = asNumber(process.env.PAIN_RADAR_MIN_CATEGORY_SCORE, 40)
+
+  const topScore = Number(categories[0]?.marketScore || 0)
+  const minViableScore = Math.max(minAbsoluteScore, topScore * minRelativeScore)
+  const viable = categories.filter((entry) => Number(entry.marketScore || 0) >= minViableScore)
+  const pool = viable.length ? viable : categories.slice(0, Math.min(6, categories.length))
+
+  const recent = history.slice(-rotationWindow)
+  const recentCount = new Map()
+  for (const item of recent) {
+    const key = String(item?.categoryId || '').trim()
+    if (!key) continue
+    recentCount.set(key, (recentCount.get(key) || 0) + 1)
+  }
+
+  let lastCategoryStreak = 0
+  if (lastCategoryId) {
+    for (let i = history.length - 1; i >= 0; i -= 1) {
+      const key = String(history[i]?.categoryId || '').trim()
+      if (!key || key !== lastCategoryId) break
+      lastCategoryStreak += 1
+    }
+  }
+
+  const scored = pool.map((entry) => {
+    const categoryId = String(entry.categoryId || '').trim()
+    const repeats = recentCount.get(categoryId) || 0
+    let adjustedScore = Number(entry.marketScore || 0) - repeats * repeatPenalty
+
+    if (lastCategoryId && categoryId === lastCategoryId) {
+      adjustedScore -= lastCategoryPenalty
+      adjustedScore -= Math.max(0, lastCategoryStreak - 1) * 20
+    }
+
+    adjustedScore += Math.min(12, Number(entry.highIntentMentions || 0)) * 0.5
+
+    return {
+      entry,
+      adjustedScore,
+      repeats,
+    }
+  })
+
+  scored.sort((a, b) => b.adjustedScore - a.adjustedScore || Number(b.entry.marketScore || 0) - Number(a.entry.marketScore || 0))
+
+  if (!scored.length) return categories[0]
+
+  const best = scored[0]
+  const alternative = scored.find(
+    (item) =>
+      String(item.entry.categoryId || '').trim() !== lastCategoryId &&
+      item.adjustedScore >= best.adjustedScore - 12,
+  )
+
+  return (alternative || best).entry
+}
+
+function renderTopicTrackerMarkdown(ideaHistory, maxRows = 240) {
+  const history = Array.isArray(ideaHistory) ? ideaHistory.filter(Boolean) : []
+  const rows = history.slice(-Math.max(1, maxRows))
+
+  const summaryMap = new Map()
+  for (const item of history) {
+    const categoryId = String(item.categoryId || 'uncategorized')
+    const categoryLabel = String(item.categoryLabel || categoryId)
+    const current = summaryMap.get(categoryId) || {
+      categoryId,
+      categoryLabel,
+      count: 0,
+      lastHeadline: '',
+      lastScore: 0,
+      lastAt: '',
+    }
+
+    current.count += 1
+    current.lastHeadline = String(item.headline || current.lastHeadline || '')
+    current.lastScore = Number(item.marketScore || current.lastScore || 0)
+    current.lastAt = String(item.generatedAt || current.lastAt || '')
+    summaryMap.set(categoryId, current)
+  }
+
+  const summaries = [...summaryMap.values()].sort((a, b) => b.count - a.count || b.lastScore - a.lastScore)
+
+  const lines = []
+  lines.push('# Korea Pain Radar Topic Tracker')
+  lines.push('')
+  lines.push(`- Last Updated: ${toKstTimestamp(new Date().toISOString())}`)
+  lines.push(`- Total Ideas: ${history.length}`)
+  lines.push('')
+
+  lines.push('## 누적 주제 요약')
+  lines.push('')
+  lines.push('| 주제(카테고리) | 누적 횟수 | 최근 아이디어 | 최근 점수 | 마지막 생성(KST) |')
+  lines.push('|---|---:|---|---:|---|')
+
+  if (!summaries.length) {
+    lines.push('| (없음) | 0 | - | 0 | - |')
+  } else {
+    for (const item of summaries) {
+      lines.push(
+        `| ${escapeMdCell(item.categoryLabel)} | ${item.count} | ${escapeMdCell(item.lastHeadline)} | ${Number(item.lastScore || 0).toFixed(2)} | ${escapeMdCell(toKstTimestamp(item.lastAt))} |`,
+      )
+    }
+  }
+
+  lines.push('')
+  lines.push(`## 아이디어 실행 이력 (최근 ${rows.length}건)`)
+  lines.push('')
+  lines.push('| 생성시각(KST) | 카테고리 | 아이디어 | 점수 | 대표 근거 링크 |')
+  lines.push('|---|---|---|---:|---|')
+
+  if (!rows.length) {
+    lines.push('| - | - | - | 0 | - |')
+  } else {
+    for (const item of rows) {
+      const evidenceLink = item?.evidence?.[0]?.link ? `<${item.evidence[0].link}>` : '-'
+      lines.push(
+        `| ${escapeMdCell(toKstTimestamp(item.generatedAt))} | ${escapeMdCell(item.categoryLabel || item.categoryId || '-')} | ${escapeMdCell(item.headline || '-')} | ${Number(item.marketScore || 0).toFixed(2)} | ${escapeMdCell(evidenceLink)} |`,
+      )
+    }
+  }
+
+  lines.push('')
+  return lines.join('\n')
+}
+
+function writeTopicTrackerMarkdown(ideaHistory) {
+  const maxRows = asNumber(process.env.PAIN_RADAR_TOPIC_TRACKER_ROWS, 240)
+  const markdown = renderTopicTrackerMarkdown(ideaHistory, maxRows)
+  fs.writeFileSync(IDEA_TOPIC_TRACKER_PATH, `${markdown}\n`, 'utf8')
 }
 
 function classifyPost(post) {
@@ -431,11 +596,21 @@ async function runAnalyze() {
     .filter((entry) => entry.meta.signalScore > 0)
 
   const categories = buildCategorySummary(signals)
+  const ideaHistory = readJsonl(IDEA_HISTORY_PATH)
+
   const rankedBusinessCategories = categories.filter((entry) => entry.categoryId !== 'uncategorized')
   const highIntentPreferred = rankedBusinessCategories.filter(
     (entry) => entry.highIntentRatio >= 0.18 || entry.highIntentMentions >= 5,
   )
-  const topCategory = highIntentPreferred[0] || rankedBusinessCategories[0] || categories[0] || null
+
+  const categoryPool =
+    highIntentPreferred.length > 0
+      ? highIntentPreferred
+      : rankedBusinessCategories.length > 0
+        ? rankedBusinessCategories
+        : categories
+
+  const topCategory = selectDiversifiedCategory(categoryPool, ideaHistory)
 
   const analysis = {
     ok: true,
@@ -466,7 +641,10 @@ async function runAnalyze() {
 
     writeJson(IDEA_LATEST_PATH, emptyIdea)
     appendJsonl(IDEA_HISTORY_PATH, emptyIdea)
-    require('node:fs').writeFileSync(IDEA_MARKDOWN_PATH, renderDiscordMarkdown(emptyIdea, analysis), 'utf8')
+    fs.writeFileSync(IDEA_MARKDOWN_PATH, renderDiscordMarkdown(emptyIdea, analysis), 'utf8')
+
+    const nextHistory = [...ideaHistory, emptyIdea]
+    writeTopicTrackerMarkdown(nextHistory)
 
     return { analysis, idea: emptyIdea }
   }
@@ -474,7 +652,10 @@ async function runAnalyze() {
   const idea = makeIdea(topCategory)
   writeJson(IDEA_LATEST_PATH, idea)
   appendJsonl(IDEA_HISTORY_PATH, idea)
-  require('node:fs').writeFileSync(IDEA_MARKDOWN_PATH, renderDiscordMarkdown(idea, analysis), 'utf8')
+  fs.writeFileSync(IDEA_MARKDOWN_PATH, renderDiscordMarkdown(idea, analysis), 'utf8')
+
+  const nextHistory = [...ideaHistory, idea]
+  writeTopicTrackerMarkdown(nextHistory)
 
   return { analysis, idea }
 }

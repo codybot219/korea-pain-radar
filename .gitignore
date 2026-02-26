@@ -10,6 +10,7 @@ logs/
 /data/ideas/latest-idea.json
 /data/analysis/latest-analysis.json
 /data/ideas/latest-discord.md
+/data/ideas/topic-tracker.md
 /data/collect-latest.json
 /data/source-discovery-latest.json
 /data/source-discovery-state.json
