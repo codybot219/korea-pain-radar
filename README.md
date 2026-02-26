@@ -44,6 +44,12 @@ npm run analyze
 npm run report
 ```
 
+리포트만 생성 + 자동 git push:
+
+```bash
+npm run once:no-report:push
+```
+
 소스 자동 탐지:
 
 ```bash
@@ -121,6 +127,14 @@ npm run sources:auto-update:force
 - `PAIN_RADAR_SOURCE_DISCOVERY_MIN_ITEMS` (기본 `12`)
 - `PAIN_RADAR_SOURCE_DISCOVERY_MAX_NEW` (기본 `400`)
 - `PAIN_RADAR_SOURCE_DISCOVERY_MAX_PROBES` (기본 `1500`)
+
+## Auto push behavior (cron)
+
+- `run-once`에 `--auto-push` 플래그를 주면 실행 후 자동으로 git push를 시도합니다.
+- push 대상 파일:
+  - `data/ideas/topic-tracker.md`
+  - `data/reports/history.md`
+- 설정형 활성화: `PAIN_RADAR_AUTO_PUSH=1`
 
 ## Output files
 

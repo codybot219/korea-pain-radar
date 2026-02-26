@@ -1,13 +1,19 @@
+const fs = require('node:fs')
 const path = require('node:path')
+const { spawnSync } = require('node:child_process')
 
 const { runCollect } = require('./collect')
 const { runAnalyze } = require('./analyze')
 const { runReport } = require('./report-discord')
 const { runSourceAutoUpdate } = require('./source-auto-update')
-const { DATA_DIR, appendJsonl, readJsonl, ensureDir } = require('./utils')
+const { ROOT, DATA_DIR, appendJsonl, readJsonl, ensureDir } = require('./utils')
 
 const REPORT_HISTORY_JSONL_PATH = path.join(DATA_DIR, 'reports', 'history.jsonl')
 const REPORT_HISTORY_MD_PATH = path.join(DATA_DIR, 'reports', 'history.md')
+const AUTO_PUSH_TRACKED_FILES = [
+  path.join('data', 'ideas', 'topic-tracker.md'),
+  path.join('data', 'reports', 'history.md'),
+]
 
 function escapeMdCell(value) {
   return String(value == null ? '' : value)
@@ -28,6 +34,127 @@ function toKstTimestamp(iso) {
     minute: '2-digit',
     hour12: false,
   }).format(d)
+}
+
+function parseBoolean(value, fallback = false) {
+  if (value == null) return fallback
+  const raw = String(value).trim().toLowerCase()
+  if (!raw) return fallback
+  if (['1', 'true', 'yes', 'on'].includes(raw)) return true
+  if (['0', 'false', 'no', 'off'].includes(raw)) return false
+  return fallback
+}
+
+function runGit(args, cwd = ROOT) {
+  const result = spawnSync('git', args, {
+    cwd,
+    encoding: 'utf8',
+    windowsHide: true,
+  })
+
+  return {
+    ok: result.status === 0,
+    status: result.status,
+    stdout: String(result.stdout || '').trim(),
+    stderr: String(result.stderr || '').trim(),
+  }
+}
+
+function runAutoPush({ enabled = false } = {}) {
+  if (!enabled) {
+    return {
+      attempted: false,
+      ok: true,
+      reason: 'auto-push-disabled',
+    }
+  }
+
+  const insideRepo = runGit(['rev-parse', '--is-inside-work-tree'])
+  if (!insideRepo.ok) {
+    return {
+      attempted: true,
+      ok: false,
+      reason: 'not-a-git-repo',
+      detail: insideRepo.stderr || insideRepo.stdout || 'rev-parse failed',
+    }
+  }
+
+  const add = runGit(['add', '--', ...AUTO_PUSH_TRACKED_FILES])
+  if (!add.ok) {
+    return {
+      attempted: true,
+      ok: false,
+      reason: 'git-add-failed',
+      detail: add.stderr || add.stdout || 'git add failed',
+    }
+  }
+
+  const staged = runGit(['diff', '--cached', '--name-only', '--'])
+  if (!staged.ok) {
+    return {
+      attempted: true,
+      ok: false,
+      reason: 'git-diff-cached-failed',
+      detail: staged.stderr || staged.stdout || 'git diff --cached failed',
+    }
+  }
+
+  const changedFiles = staged.stdout
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+
+  if (!changedFiles.length) {
+    return {
+      attempted: true,
+      ok: true,
+      reason: 'no-changes-to-push',
+      changedFiles,
+    }
+  }
+
+  const commitAt = toKstTimestamp(new Date().toISOString())
+  const commitMessage = `chore(report): update cron report tables (${commitAt})`
+  const commit = runGit(['commit', '-m', commitMessage, '--'])
+  if (!commit.ok) {
+    const detail = [commit.stdout, commit.stderr].filter(Boolean).join(' | ')
+    if (/nothing to commit/i.test(detail)) {
+      return {
+        attempted: true,
+        ok: true,
+        reason: 'nothing-to-commit',
+        changedFiles,
+      }
+    }
+
+    return {
+      attempted: true,
+      ok: false,
+      reason: 'git-commit-failed',
+      detail: detail || 'git commit failed',
+      changedFiles,
+    }
+  }
+
+  const push = runGit(['push'])
+  if (!push.ok) {
+    return {
+      attempted: true,
+      ok: false,
+      reason: 'git-push-failed',
+      detail: push.stderr || push.stdout || 'git push failed',
+      changedFiles,
+    }
+  }
+
+  return {
+    attempted: true,
+    ok: true,
+    reason: 'pushed',
+    changedFiles,
+    commitSummary: commit.stdout.split(/\r?\n/)[0] || '',
+    pushSummary: push.stdout.split(/\r?\n/)[0] || '',
+  }
 }
 
 function summarizeCollectErrors(collectStats = []) {
@@ -121,7 +248,7 @@ function persistReportHistory({
   const rows = readJsonl(REPORT_HISTORY_JSONL_PATH)
   const markdown = renderReportHistoryMarkdown(rows)
   ensureDir(path.dirname(REPORT_HISTORY_MD_PATH))
-  require('node:fs').writeFileSync(REPORT_HISTORY_MD_PATH, `${markdown}\n`, 'utf8')
+  fs.writeFileSync(REPORT_HISTORY_MD_PATH, `${markdown}\n`, 'utf8')
 }
 
 async function runOnce({
@@ -129,7 +256,10 @@ async function runOnce({
   dryRun = false,
   skipSourceUpdate = false,
   forceSourceUpdate = false,
+  autoPush = false,
 } = {}) {
+  const autoPushEnabled = Boolean(autoPush) || parseBoolean(process.env.PAIN_RADAR_AUTO_PUSH, false)
+
   const sourceUpdate = skipSourceUpdate
     ? { ok: true, skipped: true, reason: 'source-auto-update-skipped-by-flag' }
     : await runSourceAutoUpdate({ force: forceSourceUpdate })
@@ -178,6 +308,16 @@ async function runOnce({
     summary.reportHistoryWarning = `history-write-failed:${reason}`
   }
 
+  if (dryRun) {
+    summary.autoPush = {
+      attempted: false,
+      ok: true,
+      reason: 'dry-run',
+    }
+  } else {
+    summary.autoPush = runAutoPush({ enabled: autoPushEnabled })
+  }
+
   return summary
 }
 
@@ -186,8 +326,9 @@ if (require.main === module) {
   const dryRun = process.argv.includes('--dry-run')
   const skipSourceUpdate = process.argv.includes('--skip-source-update')
   const forceSourceUpdate = process.argv.includes('--force-source-update')
+  const autoPush = process.argv.includes('--auto-push')
 
-  runOnce({ noReport, dryRun, skipSourceUpdate, forceSourceUpdate })
+  runOnce({ noReport, dryRun, skipSourceUpdate, forceSourceUpdate, autoPush })
     .then((summary) => {
       console.log(JSON.stringify(summary, null, 2))
     })

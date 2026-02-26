@@ -13,7 +13,8 @@
     "sources:auto-update": "node src/source-auto-update.js",
     "sources:auto-update:force": "node src/source-auto-update.js --force",
     "once": "node src/run-once.js",
-    "once:no-report": "node src/run-once.js --no-report"
+    "once:no-report": "node src/run-once.js --no-report",
+    "once:no-report:push": "node src/run-once.js --no-report --auto-push"
   },
   "dependencies": {
     "cheerio": "^1.2.0",
