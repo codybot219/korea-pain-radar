@@ -1,17 +1,17 @@
 # Korea Pain Radar Topic Tracker
 
-- Last Updated: 2026. 02. 26. 13:30
-- Total Ideas: 20
+- Last Updated: 2026. 02. 26. 14:06
+- Total Ideas: 21
 
 ## 누적 주제 요약
 
 | 주제(카테고리) | 누적 횟수 | 최근 아이디어 | 최근 점수 | 마지막 생성(KST) |
 |---|---:|---|---:|---|
-| 일상 기술문제 해결 | 17 | 일상 디지털 문제 해결 코파일럿 | 1001.59 | 2026. 02. 26. 13:30 |
+| 일상 기술문제 해결 | 18 | 일상 디지털 문제 해결 코파일럿 | 1034.67 | 2026. 02. 26. 14:06 |
 | 보험/재무 의사결정 보조 | 2 | 보험·재무 의사결정 비교 도우미 | 121.03 | 2026. 02. 26. 01:08 |
 | 생활행정/헬스케어 불편 | 1 | 증상·보험·진료 준비 통합 어시스턴트 | 546.78 | 2026. 02. 26. 10:26 |
 
-## 아이디어 실행 이력 (최근 20건)
+## 아이디어 실행 이력 (최근 21건)
 
 | 생성시각(KST) | 카테고리 | 아이디어 | 점수 | 대표 근거 링크 |
 |---|---|---|---:|---|
@@ -35,4 +35,5 @@
 | 2026. 02. 26. 12:06 | 일상 기술문제 해결 | 일상 디지털 문제 해결 코파일럿 | 960.81 | <https://old.reddit.com/r/Entrepreneur/comments/1re4wrk/how_were_stealing_customers_from_9figure/> |
 | 2026. 02. 26. 12:53 | 일상 기술문제 해결 | 일상 디지털 문제 해결 코파일럿 | 976.01 | <https://old.reddit.com/r/Entrepreneur/comments/1re4wrk/how_were_stealing_customers_from_9figure/> |
 | 2026. 02. 26. 13:30 | 일상 기술문제 해결 | 일상 디지털 문제 해결 코파일럿 | 1001.59 | <https://old.reddit.com/r/Entrepreneur/comments/1re4wrk/how_were_stealing_customers_from_9figure/> |
+| 2026. 02. 26. 14:06 | 일상 기술문제 해결 | 일상 디지털 문제 해결 코파일럿 | 1034.67 | <https://old.reddit.com/r/Entrepreneur/comments/1re4wrk/how_were_stealing_customers_from_9figure/> |
 
