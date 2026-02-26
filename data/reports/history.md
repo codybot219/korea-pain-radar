@@ -1,9 +1,9 @@
 # Korea Pain Radar Report Log
 
-- Last Updated: 2026. 02. 26. 18:06
-- Total Runs: 5
+- Last Updated: 2026. 02. 26. 20:06
+- Total Runs: 6
 
-## 실행 이력 (최근 5건)
+## 실행 이력 (최근 6건)
 
 | 시각(KST) | 수집(inserted/source) | 분석(sample/signal) | 카테고리 | 아이디어 | 점수 | 차단/오류 |
 |---|---|---|---|---|---:|---|
@@ -12,4 +12,5 @@
 | 2026. 02. 26. 14:06 | 995/723 | 32566/2746 | 일상 기술문제 해결 | 일상 디지털 문제 해결 코파일럿 | 1034.67 | 403 2건 / 오류 2건 (dogdrip-girlgroup, dogdrip-pic) |
 | 2026. 02. 26. 16:06 | 1818/723 | 34379/2964 | 생활행정/헬스케어 불편 | 증상·보험·진료 준비 통합 어시스턴트 | 737.17 | 403 3건 / 오류 3건 (dogdrip-cook, dogdrip-girlgroup, dogdrip-surplustime) |
 | 2026. 02. 26. 18:06 | 1751/723 | 36127/3144 | 일상 기술문제 해결 | 일상 디지털 문제 해결 코파일럿 | 1138.40 | 403 4건 / 오류 4건 (dogdrip-game, dogdrip-girlgroup, dogdrip-pic) |
+| 2026. 02. 26. 20:06 | 1670/723 | 37793/3297 | 일상 기술문제 해결 | 일상 디지털 문제 해결 코파일럿 | 1199.08 | 403 6건 / 오류 6건 (dogdrip-coin, dogdrip-duck, dogdrip-girlgroup) |
 
