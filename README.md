@@ -132,6 +132,8 @@ npm run sources:auto-update:force
 - `data/ideas/latest-discord.md` - Discord 메시지 초안
 - `data/source-discovery-latest.json` - 마지막 소스 탐지/검증 결과
 - `data/source-discovery-state.json` - 자동업데이트 상태
+- `data/reports/history.jsonl` - cron/수동 실행 리포트 누적 로그
+- `data/reports/history.md` - 리포트 누적 마크다운 표
 
 ## Compliance policy
 

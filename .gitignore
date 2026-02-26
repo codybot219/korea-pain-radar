@@ -14,3 +14,5 @@ logs/
 /data/collect-latest.json
 /data/source-discovery-latest.json
 /data/source-discovery-state.json
+/data/reports/history.jsonl
+/data/reports/history.md
